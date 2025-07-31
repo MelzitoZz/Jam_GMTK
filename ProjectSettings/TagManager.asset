@@ -11,8 +11,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - Destruivel
+  - Item
   - 
   - 
   - 
@@ -46,6 +46,12 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 2443482099
+    locked: 0
+  - name: ObjetoQueb
+    uniqueID: 2621324481
+    locked: 0
+  - name: ObjetoColetavel
+    uniqueID: 931142131
     locked: 0
   m_RenderingLayers:
   - Default
