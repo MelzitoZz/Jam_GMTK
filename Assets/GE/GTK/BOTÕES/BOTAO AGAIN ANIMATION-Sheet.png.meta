@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BOTAO AGAIN ANIMATION-Sheet_0: 2176911044828123908
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -159,7 +159,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BOTAO DE SAIR ANIMATION-Sheet_0: 5349557816957797721
+      BOTAO DE SAIR ANIMATION-Sheet_1: -8800896709395942500
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

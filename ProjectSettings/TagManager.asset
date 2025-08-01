@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Bau
+  - Geladeira
   layers:
   - Default
   - TransparentFX

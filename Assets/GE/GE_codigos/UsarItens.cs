@@ -2,13 +2,9 @@ using UnityEngine;
 
 public class UsarItens : MonoBehaviour
 {
-    // Referências aos objetos da cena
     public BauController bau;
-
-    // Controle de itens
-    private bool bauAberto = false;
-    private bool temBola = false;
-
+    public GeladeiraController geladeira;
+    public JB_Inventory inventario;
 
     public void UseItem(Sprite itemSprite)
     {
@@ -24,17 +20,36 @@ public class UsarItens : MonoBehaviour
         switch (itemName)
         {
             case "CHAVE_0":
-                // Chave abre o baú
-                if (!bauAberto)
+                if (bau != null)
                 {
                     bau.AbrirBau();
-                    bauAberto = true;
-                    temBola = true; // Baú agora tem a bola
-                    Debug.Log("Você abriu o baú! Tem uma bola lá dentro.");
+                    if (inventario != null)
+                    {
+                        inventario.RemoveItem(itemSprite);
+                        inventario.UpdateUI();
+                    }
                 }
-                else
+                break;
+            case "BOLA_0":
+                if (bau != null && bau.aberto)
                 {
-                    Debug.Log("O baú já está aberto.");
+                    bau.FecharBau();
+                    if (inventario != null)
+                    {
+                        inventario.RemoveItem(itemSprite);
+                        inventario.UpdateUI();
+                    }
+                }
+                break;
+            case "LEITE_0":
+                if (geladeira != null && geladeira.aberta && !geladeira.temLeite)
+                {
+                    geladeira.ColocarLeite();
+                    if (inventario != null)
+                    {
+                        inventario.RemoveItem(itemSprite);
+                        inventario.UpdateUI();
+                    }
                 }
                 break;
             default:

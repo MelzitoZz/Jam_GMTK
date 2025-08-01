@@ -1,10 +1,25 @@
 fileFormatVersion: 2
-guid: e4e80a1f46824e04292cb6b7d0083bf6
+guid: c58e9b0bebe9a9d4b8091cb51ffb0445
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 434684701918818832
-    second: BANCO_0
+      213: -3120658267711001782
+    second: BAU ANIMATION-Sheet_0
+  - first:
+      213: -2745228256784085713
+    second: BAU ANIMATION-Sheet_1
+  - first:
+      213: -6498082073876332374
+    second: BAU ANIMATION-Sheet_2
+  - first:
+      213: 40549123595712934
+    second: BAU ANIMATION-Sheet_3
+  - first:
+      213: -1099681609463737432
+    second: BAU ANIMATION-Sheet_4
+  - first:
+      213: -938433740130903712
+    second: BAU ANIMATION-Sheet_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 48
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,23 +115,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BANCO_0
+      name: BAU ANIMATION-Sheet_5
       rect:
         serializedVersion: 2
-        x: 6
-        y: 2
-        width: 20
-        height: 23
+        x: 164
+        y: 6
+        width: 24
+        height: 26
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 012fa2fee6f480600800000000000000
-      internalID: 434684701918818832
+      spriteID: 06991424c730af2f0800000000000000
+      internalID: -938433740130903712
       vertices: []
       indices: 
       edges: []
@@ -125,7 +140,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b81be484b1ebccb4191382ea7ab31ae3
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +150,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BANCO_0: 434684701918818832
+      BAU ANIMATION-Sheet_0: -3120658267711001782
+      BAU ANIMATION-Sheet_1: -2745228256784085713
+      BAU ANIMATION-Sheet_2: -6498082073876332374
+      BAU ANIMATION-Sheet_3: 40549123595712934
+      BAU ANIMATION-Sheet_4: -1099681609463737432
+      BAU ANIMATION-Sheet_5: -938433740130903712
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

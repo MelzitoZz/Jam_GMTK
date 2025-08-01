@@ -91,7 +91,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -105,7 +105,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -129,7 +129,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -584,7 +584,26 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_0": 6316738022654337907
+      "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_1": -8470570510015106737
+      "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_10": -6208026974388994280
+      "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_11": 5305161063348014442
+      "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_12": 4814921829853876628
+      "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_13": 1895419007154000240
+      "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_14": -2609540734612273811
+      "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_15": 1008975296596547605
+      "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_16": 3280905226356921959
+      "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_17": 6604065117286155967
+      "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_18": -4708686362511402913
+      "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_2": 339528615311358938
+      "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_3": 5640126434564184691
+      "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_4": -6677234761084874371
+      "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_5": 6994652284784729175
+      "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_6": -4301644797587338355
+      "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_7": -8025588731055866242
+      "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_8": -8818470131033130425
+      "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_9": 1057714030571008435
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

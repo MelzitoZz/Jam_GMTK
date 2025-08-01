@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "TILESET (PAREDES E CH\xC3O)_0": -6976647101174329750
+      "TILESET (PAREDES E CH\xC3O)_1": 8189744400213599282
+      "TILESET (PAREDES E CH\xC3O)_2": 5556836091903233032
+      "TILESET (PAREDES E CH\xC3O)_3": -9073354915967790577
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

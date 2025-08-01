@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "CRACH\xC1_0": 4365763368367266632
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

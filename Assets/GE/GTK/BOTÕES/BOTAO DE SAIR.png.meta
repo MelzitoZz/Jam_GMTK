@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BOTAO DE SAIR_0: -5531227991035128114
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

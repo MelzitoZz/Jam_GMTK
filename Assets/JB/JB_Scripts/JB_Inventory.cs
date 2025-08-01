@@ -26,7 +26,7 @@ public class JB_Inventory : MonoBehaviour
         return false; // Inventário cheio
     }
 
-    void UpdateUI()
+    public void UpdateUI()
     {
         for (int i = 0; i < itemImages.Length; i++)
         {
