@@ -131,9 +131,11 @@ GameObject:
   - component: {fileID: 47890159}
   - component: {fileID: 47890157}
   - component: {fileID: 47890156}
+  - component: {fileID: 47890161}
+  - component: {fileID: 47890162}
   m_Layer: 0
   m_Name: Estante
-  m_TagString: Untagged
+  m_TagString: Estante
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -195,11 +197,11 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.020244956, y: -0.030367434}
+  m_Offset: {x: -0.0049552917, y: -0.098768055}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -209,7 +211,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.76587856, y: 1.4517568}
+  m_Size: {x: 1.1186819, y: 1.5885581}
   m_EdgeRadius: 0
 --- !u!212 &47890159
 SpriteRenderer:
@@ -253,7 +255,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1673642815
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: -2850228355897094702, guid: 9fc8664de23993f458d91a9ef0395440, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -281,6 +283,72 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1770798171}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &47890161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 47890155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 648381f4a4c90f44797a2fd96f9c325a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sr: {fileID: 47890159}
+  estanteComLivroSprite: {fileID: 2022159620859177954, guid: 6d5c1996aecccaf4cbbeaa613e460c51, type: 3}
+  temLivro: 0
+--- !u!60 &47890162
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 47890155}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.875, y: 1.5}
+    newSize: {x: 0.28, y: 0.48}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.4375, y: 0.75}
+      - {x: -0.4375, y: -0.75}
+      - {x: 0.4375, y: -0.75}
+      - {x: 0.4375, y: 0.75}
+  m_UseDelaunayMesh: 0
 --- !u!1 &66716815
 GameObject:
   m_ObjectHideFlags: 0
@@ -401,8 +469,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 931142131
-  m_SortingLayer: 4
+  m_SortingLayerID: -844469533
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 434684701918818832, guid: e4e80a1f46824e04292cb6b7d0083bf6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -663,7 +731,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1673642815
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 4480690354580977862, guid: b562438263ba38845b66e2c6a931b218, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3802,7 +3870,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1673642815
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4663,7 +4731,7 @@ Transform:
   m_GameObject: {fileID: 930798045}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.8178032, y: 1.2709236, z: -9.960689}
+  m_LocalPosition: {x: 0.8014561, y: 1.2709336, z: -9.960689}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5052,9 +5120,11 @@ GameObject:
   - component: {fileID: 1098769731}
   - component: {fileID: 1098769733}
   - component: {fileID: 1098769732}
+  - component: {fileID: 1098769734}
+  - component: {fileID: 1098769735}
   m_Layer: 0
   m_Name: MesaComLivro
-  m_TagString: Untagged
+  m_TagString: Mesa
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5104,11 +5174,11 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.054000378, y: -0.0539999}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5118,7 +5188,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 2, y: 2}
+  m_Size: {x: 2.4104052, y: 2.1079998}
   m_EdgeRadius: 0
 --- !u!212 &1098769733
 SpriteRenderer:
@@ -5161,8 +5231,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1673642815
-  m_SortingLayer: 3
+  m_SortingLayerID: 931142131
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 1749782108702103144, guid: 3c2bda74550fff046969460817643f0e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5175,6 +5245,73 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1098769734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098769730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a749df208344f364d9e92c9461b64973, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mesaSemLivroSprite: {fileID: -2718189660088181846, guid: c9fe75e154b924f489d1dc7b587c327a, type: 3}
+  sr: {fileID: 1098769733}
+  livroSprite: {fileID: -1862213888835499115, guid: 527f239c22a545a4f83761d0e29f01f3, type: 3}
+  inventario: {fileID: 225370098}
+--- !u!60 &1098769735
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098769730}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2, y: 2}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -1, y: 1}
+      - {x: -1, y: -1}
+      - {x: 1, y: -1}
+      - {x: 1, y: 1}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1140197694
 GameObject:
   m_ObjectHideFlags: 0
@@ -5422,6 +5559,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bau: {fileID: 147603334}
   geladeira: {fileID: 1520762950}
+  estante: {fileID: 47890161}
   inventario: {fileID: 225370098}
 --- !u!4 &1313408056
 Transform:
@@ -5660,7 +5798,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1673642815
+  m_SortingLayerID: -1802423131
   m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 434684701918818832, guid: e4e80a1f46824e04292cb6b7d0083bf6, type: 3}
@@ -6199,7 +6337,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1673642815
-  m_SortingLayer: 3
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: -5020986071880547326, guid: ef37403fcc1eb47419972b0a16e17c25, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

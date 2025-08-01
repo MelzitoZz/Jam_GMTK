@@ -4,6 +4,7 @@ public class UsarItens : MonoBehaviour
 {
     public BauController bau;
     public GeladeiraController geladeira;
+    public EstanteController estante; 
     public JB_Inventory inventario;
 
     public void UseItem(Sprite itemSprite)
@@ -45,6 +46,17 @@ public class UsarItens : MonoBehaviour
                 if (bau != null && bau.aberto)
                 {
                     bau.ColocarBoneca();
+                    if (inventario != null)
+                    {
+                        inventario.RemoveItem(itemSprite);
+                        inventario.UpdateUI();
+                    }
+                }
+                break;
+            case "LIVRO_0":
+                if (estante != null && !estante.temLivro)
+                {
+                    estante.ColocarLivro();
                     if (inventario != null)
                     {
                         inventario.RemoveItem(itemSprite);

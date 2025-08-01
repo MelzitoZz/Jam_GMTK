@@ -10,25 +10,28 @@ public class JB_ItemPickup : MonoBehaviour
         JB_Inventory inv = FindObjectOfType<JB_Inventory>();
         if (inv != null && inv.AddItem(itemSprite))
         {
-            if (coletarMensagem != null)
-                coletarMensagem.HideMessage();
+            coletarMensagem?.HideMessage();
             Destroy(gameObject);
+        }
+        else
+        {
+            Debug.Log("Não foi possível adicionar o item ao inventário.");
         }
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player") && coletarMensagem != null)
+        if (other.CompareTag("Player"))
         {
-            coletarMensagem.ShowMessage();
+            coletarMensagem?.ShowMessage();
         }
     }
 
     void OnTriggerExit2D(Collider2D other)
     {
-        if (other.CompareTag("Player") && coletarMensagem != null)
+        if (other.CompareTag("Player"))
         {
-            coletarMensagem.HideMessage();
+            coletarMensagem?.HideMessage();
         }
     }
 
