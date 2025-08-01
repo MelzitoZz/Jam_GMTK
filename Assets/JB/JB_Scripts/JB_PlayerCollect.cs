@@ -2,10 +2,17 @@ using UnityEngine;
 
 public class JB_PlayerCollect : MonoBehaviour
 {
-    public Transform collectPoint; // arraste o AttackPoint ou outro ponto aqui
+    public Transform collectPoint;
     public float collectRange = 0.5f;
     public LayerMask itemLayer;
     public KeyCode collectKey = KeyCode.P;
+
+    private JB_Inventory inventory;
+
+    void Start()
+    {
+        inventory = FindObjectOfType<JB_Inventory>();
+    }
 
     void Update()
     {

@@ -44,4 +44,9 @@ public class MudarIten : MonoBehaviour
                 itemImages[i].color = originalColors[i];
         }
     }
+
+    public int GetSelectedSlot()
+    {
+        return selectedSlot;
+    }
 }

@@ -1,0 +1,592 @@
+fileFormatVersion: 2
+guid: 0a251376ed1b290408a50c22fdc51b24
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6316738022654337907
+    second: "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_0"
+  - first:
+      213: -8470570510015106737
+    second: "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_1"
+  - first:
+      213: 339528615311358938
+    second: "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_2"
+  - first:
+      213: 5640126434564184691
+    second: "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_3"
+  - first:
+      213: -6677234761084874371
+    second: "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_4"
+  - first:
+      213: 6994652284784729175
+    second: "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_5"
+  - first:
+      213: -4301644797587338355
+    second: "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_6"
+  - first:
+      213: -8025588731055866242
+    second: "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_7"
+  - first:
+      213: -8818470131033130425
+    second: "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_8"
+  - first:
+      213: 1057714030571008435
+    second: "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_9"
+  - first:
+      213: -6208026974388994280
+    second: "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_10"
+  - first:
+      213: 5305161063348014442
+    second: "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_11"
+  - first:
+      213: 4814921829853876628
+    second: "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_12"
+  - first:
+      213: 1895419007154000240
+    second: "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_13"
+  - first:
+      213: -2609540734612273811
+    second: "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_14"
+  - first:
+      213: 1008975296596547605
+    second: "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_15"
+  - first:
+      213: 3280905226356921959
+    second: "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_16"
+  - first:
+      213: 6604065117286155967
+    second: "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_17"
+  - first:
+      213: -4708686362511402913
+    second: "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_18"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_0"
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 0
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 373e38b93cf89a750800000000000000
+      internalID: 6316738022654337907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_1"
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 0
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4176a9000d727a80800000000000000
+      internalID: -8470570510015106737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_2"
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 0
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adbb6ba0a7f36b400800000000000000
+      internalID: 339528615311358938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_3"
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 0
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37a1d7c0c11c54e40800000000000000
+      internalID: 5640126434564184691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_4"
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 0
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7155afbc52b553a0800000000000000
+      internalID: -6677234761084874371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_5"
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 0
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75cd7f9913ff11160800000000000000
+      internalID: 6994652284784729175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_6"
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 0
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b46e109dc7d44c0800000000000000
+      internalID: -4301644797587338355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_7"
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 0
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7e790c02916f9090800000000000000
+      internalID: -8025588731055866242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_8"
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 0
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ab06953208e9580800000000000000
+      internalID: -8818470131033130425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_9"
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 0
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b1b12a8e41cdae00800000000000000
+      internalID: 1057714030571008435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_10"
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 0
+        width: 22
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f308bbb58a8d9a0800000000000000
+      internalID: -6208026974388994280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_11"
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 5
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d871111e7bf9940800000000000000
+      internalID: 5305161063348014442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_12"
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 14
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491d6b9c4e902d240800000000000000
+      internalID: 4814921829853876628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_13"
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 8
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07110fd6b81ed4a10800000000000000
+      internalID: 1895419007154000240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_14"
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 17
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d65068e178c09cbd0800000000000000
+      internalID: -2609540734612273811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_15"
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 10
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51818ccbfa9900e00800000000000000
+      internalID: 1008975296596547605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_16"
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 12
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7661abe9bed188d20800000000000000
+      internalID: 3280905226356921959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_17"
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 16
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb6c36dfb3a56ab50800000000000000
+      internalID: 6604065117286155967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "GELADEIRA DESTRUI\xC7\xC3O ANIMATION-Sheet_18"
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 16
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5818c373b267aeb0800000000000000
+      internalID: -4708686362511402913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
