@@ -2,46 +2,133 @@ using UnityEngine;
 
 public class BauController : MonoBehaviour
 {
-    public Sprite fechadoSprite;      // Sprite do baú fechado
-    public Sprite abertoSprite;       // Sprite do baú aberto (com bola dentro)
-    public Sprite fechandoSprite;     // Sprite do baú fechando (opcional, pode ser igual ao fechado)
-    public GameObject bolaNoBau;      // Referência para o objeto Bola dentro do Baú
+    public Sprite fechadoSprite;      // Baú trancado
+    public Sprite abertoSprite;       // Baú aberto
+    public Sprite fechandoSprite;     // Opcional, pode ser igual ao fechado
+    public GameObject bolaNoBau;      // Referência bola dentro do baú
+    public GameObject bonecaNoBau;    // Referência boneca dentro do baú
+
     private SpriteRenderer sr;
     public bool aberto = false;
+    private bool bolaDentro = false;
+    private bool bonecaDentro = false;
+    private bool trancado = true;
 
     void Start()
     {
         sr = GetComponent<SpriteRenderer>();
         sr.sprite = fechadoSprite;
+        aberto = false;
+        bolaDentro = false;
+        bonecaDentro = false;
+        trancado = true;
+
         if (bolaNoBau != null)
             bolaNoBau.SetActive(false);
+
+        if (bonecaNoBau != null)
+            bonecaNoBau.SetActive(false);
+    }
+
+    public void DestrancarBau()
+    {
+        Debug.Log($"DestrancarBau chamado - trancado antes: {trancado}");
+        if (trancado)
+        {
+            trancado = false;
+            aberto = true;
+            sr.sprite = abertoSprite;
+            Debug.Log("Baú destrancado e aberto.");
+        }
+        else
+        {
+            Debug.Log("Baú já está destrancado.");
+        }
+        Debug.Log($"trancado depois: {trancado}");
+    }
+
+
+    public void ColocarBola()
+    {
+        if (aberto && !bolaDentro)
+        {
+            bolaDentro = true;
+            if (bolaNoBau != null)
+                bolaNoBau.SetActive(true);
+
+            Debug.Log("Bola colocada dentro do baú.");
+
+            VerificarSeTranca();
+        }
+    }
+
+    public void ColocarBoneca()
+    {
+        if (aberto && !bonecaDentro)
+        {
+            bonecaDentro = true;
+            if (bonecaNoBau != null)
+                bonecaNoBau.SetActive(true);
+
+            Debug.Log("Boneca colocada dentro do baú.");
+
+            VerificarSeTranca();
+        }
+    }
+
+    private void VerificarSeTranca()
+    {
+        if (bolaDentro && bonecaDentro)
+        {
+            TrancarBau();
+        }
+    }
+
+    private void TrancarBau()
+    {
+        trancado = true;
+        aberto = false;
+        sr.sprite = fechandoSprite != null ? fechandoSprite : fechadoSprite;
+        Debug.Log("Baú trancado com os dois itens dentro!");
     }
 
     public void AbrirBau()
     {
-        if (!aberto)
+        if (!trancado)
         {
             aberto = true;
             sr.sprite = abertoSprite;
-            if (bolaNoBau != null)
-                bolaNoBau.SetActive(true); // Mostra a bola ao abrir
-            Debug.Log("Baú aberto!");
+            Debug.Log("Baú aberto.");
         }
         else
         {
-            Debug.Log("O baú já estava aberto.");
+            Debug.Log("Baú está trancado, destranque primeiro.");
         }
     }
 
     public void FecharBau()
     {
-        if (aberto)
+        if (aberto && !trancado)
         {
             aberto = false;
             sr.sprite = fechandoSprite != null ? fechandoSprite : fechadoSprite;
+
+            // Esconde os itens dentro do baú (opcional)
             if (bolaNoBau != null)
-                bolaNoBau.SetActive(false); // Esconde a bola ao fechar
+                bolaNoBau.SetActive(false);
+            if (bonecaNoBau != null)
+                bonecaNoBau.SetActive(false);
+
             Debug.Log("Baú fechado!");
         }
+        else
+        {
+            Debug.Log("Não é possível fechar o baú porque está trancado ou já fechado.");
+        }
+    }
+
+    public bool IsTrancado()
+    {
+        return trancado;
     }
 }

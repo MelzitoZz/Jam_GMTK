@@ -9,7 +9,7 @@ public class ChaveController : MonoBehaviour
             BauController bau = other.GetComponent<BauController>();
             if (bau != null)
             {
-                bau.AbrirBau();
+                bau.DestrancarBau();  
                 Destroy(gameObject);
             }
         }

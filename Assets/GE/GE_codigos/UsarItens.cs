@@ -22,7 +22,7 @@ public class UsarItens : MonoBehaviour
             case "CHAVE_0":
                 if (bau != null)
                 {
-                    bau.AbrirBau();
+                    bau.DestrancarBau();
                     if (inventario != null)
                     {
                         inventario.RemoveItem(itemSprite);
@@ -33,7 +33,18 @@ public class UsarItens : MonoBehaviour
             case "BOLA_0":
                 if (bau != null && bau.aberto)
                 {
-                    bau.FecharBau();
+                    bau.ColocarBola();
+                    if (inventario != null)
+                    {
+                        inventario.RemoveItem(itemSprite);
+                        inventario.UpdateUI();
+                    }
+                }
+                break;
+            case "BONECA_0":
+                if (bau != null && bau.aberto)
+                {
+                    bau.ColocarBoneca();
                     if (inventario != null)
                     {
                         inventario.RemoveItem(itemSprite);
