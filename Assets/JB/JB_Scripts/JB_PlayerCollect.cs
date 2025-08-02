@@ -15,6 +15,10 @@ public class JB_PlayerCollect : MonoBehaviour
     private bool podeColetar = true;
     private JB_Inventory inventory;
 
+    // Adicione a referência ao seu BackgroundAudioManager aqui
+    public BackgroundAudioManager backgroundAudioManager;
+    private bool overlayAudioParado = false;
+
     void Start()
     {
         inventory = FindObjectOfType<JB_Inventory>();
@@ -49,6 +53,18 @@ public class JB_PlayerCollect : MonoBehaviour
             JB_ItemPickup pickup = item.GetComponent<JB_ItemPickup>();
             if (pickup != null)
             {
+                // Antes de coletar, pegue o nome do sprite deste item
+                if (pickup.itemSprite != null)
+                {
+                    string spriteName = pickup.itemSprite.name;
+                    if (!overlayAudioParado && backgroundAudioManager != null &&
+                        (spriteName == "BONECA_0" || spriteName == "BOLA_0"))
+                    {
+                        backgroundAudioManager.StopOverlayAudio(9); // ajuste o tempo conforme necessário
+                        overlayAudioParado = true;
+                    }
+                }
+
                 pickup.Collect();
                 break;
             }

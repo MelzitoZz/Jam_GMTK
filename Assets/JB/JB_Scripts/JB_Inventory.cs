@@ -3,13 +3,26 @@ using UnityEngine.UI;
 
 public class JB_Inventory : MonoBehaviour
 {
-    public Image[] itemImages; // Arraste aqui as Images dos itens
+    public Image[] itemImages;
     private Sprite[] itemSprites;
+
+    public BackgroundAudioManager backgroundAudioManager;
+
+    public AudioClip audioTaskCompleta;
+    private AudioSource audioSource;
+
+    // Travas individuais para cada task
+    private bool taskBonecaBolaCompleta = false;
+    private bool taskCrachaCompleta = false;
 
     void Start()
     {
         itemSprites = new Sprite[itemImages.Length];
         UpdateUI();
+
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+            audioSource = gameObject.AddComponent<AudioSource>();
     }
 
     public bool AddItem(Sprite itemSprite)
@@ -20,6 +33,9 @@ public class JB_Inventory : MonoBehaviour
             {
                 itemSprites[i] = itemSprite;
                 UpdateUI();
+
+                PararOverlaySePegouBonecaEBola();
+
                 return true;
             }
         }
@@ -35,7 +51,6 @@ public class JB_Inventory : MonoBehaviour
         }
     }
 
-    // Corrigido para acessar itemSprites
     public Sprite GetItemAt(int index)
     {
         if (index >= 0 && index < itemSprites.Length)
@@ -44,12 +59,10 @@ public class JB_Inventory : MonoBehaviour
             return null;
     }
 
-    // Método para usar o item
     public bool UseItem(Sprite itemSprite)
     {
         if (itemSprite == null) return false;
 
-        // Busca o controlador UsarItens na cena
         UsarItens usarItensController = FindObjectOfType<UsarItens>();
         if (usarItensController != null)
         {
@@ -61,7 +74,6 @@ public class JB_Inventory : MonoBehaviour
         return false;
     }
 
-    // Remove o item do inventário apos uso
     public void RemoveItem(Sprite itemSprite)
     {
         for (int i = 0; i < itemSprites.Length; i++)
@@ -71,6 +83,38 @@ public class JB_Inventory : MonoBehaviour
                 itemSprites[i] = null;
                 break;
             }
+        }
+    }
+
+    private void PararOverlaySePegouBonecaEBola()
+    {
+        bool temBoneca = false, temBola = false, temCracha = false;
+
+        foreach (Sprite s in itemSprites)
+        {
+            if (s != null)
+            {
+                if (s.name == "BONECA_0") temBoneca = true;
+                if (s.name == "BOLA_0") temBola = true;
+                if (s.name == "CRACHÁ_0") temCracha = true;
+            }
+        }
+
+        if (temBoneca && temBola && !taskBonecaBolaCompleta)
+        {
+            if (backgroundAudioManager != null)
+                backgroundAudioManager.StopOverlayAudio(9);
+            if (audioTaskCompleta != null && audioSource != null)
+                audioSource.PlayOneShot(audioTaskCompleta);
+            taskBonecaBolaCompleta = true;
+        }
+        if (temCracha && !taskCrachaCompleta)
+        {
+            if (backgroundAudioManager != null)
+                backgroundAudioManager.StopOverlayAudio(4);
+            if (audioTaskCompleta != null && audioSource != null)
+                audioSource.PlayOneShot(audioTaskCompleta);
+            taskCrachaCompleta = true;
         }
     }
 }
