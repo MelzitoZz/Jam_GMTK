@@ -3595,6 +3595,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Personagem
       objectReference: {fileID: 0}
+    - target: {fileID: 2361668414017971324, guid: 5a8e6e9cebebe134bb5f3df3dcfc7c76, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1874143898}
     - target: {fileID: 4185873005285729199, guid: 5a8e6e9cebebe134bb5f3df3dcfc7c76, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.0805926
@@ -3634,6 +3638,18 @@ PrefabInstance:
     - target: {fileID: 4185873005285729199, guid: 5a8e6e9cebebe134bb5f3df3dcfc7c76, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5392612397948748553, guid: 5a8e6e9cebebe134bb5f3df3dcfc7c76, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5392612397948748553, guid: 5a8e6e9cebebe134bb5f3df3dcfc7c76, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1851485197
+      objectReference: {fileID: 0}
+    - target: {fileID: 7332506265375750497, guid: 5a8e6e9cebebe134bb5f3df3dcfc7c76, type: 3}
+      propertyPath: footstepClip
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4496,7 +4512,7 @@ Transform:
   m_GameObject: {fileID: 930798045}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.7896138, y: 0.5915636, z: -9.965943}
+  m_LocalPosition: {x: 0.7764283, y: 0.59155357, z: -9.965943}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5326,6 +5342,7 @@ MonoBehaviour:
   geladeira: {fileID: 1520762950}
   estante: {fileID: 47890161}
   inventario: {fileID: 225370098}
+  audioConcluido: {fileID: 0}
 --- !u!4 &1313408056
 Transform:
   m_ObjectHideFlags: 0
@@ -9764,6 +9781,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1874143898 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 1451365371394604717, guid: 5a8e6e9cebebe134bb5f3df3dcfc7c76, type: 3}
+  m_PrefabInstance: {fileID: 243123451}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1961633345 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5361744223058500194, guid: 97c4d510512910a4398028bf0ec830f2, type: 3}
