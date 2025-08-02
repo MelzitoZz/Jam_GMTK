@@ -7,6 +7,16 @@ public class UsarItens : MonoBehaviour
     public EstanteController estante; 
     public JB_Inventory inventario;
 
+    public AudioClip audioConcluido; // Arraste seu som de "concluído" aqui
+    private AudioSource audioSource;
+
+    void Awake()
+    {
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+            audioSource = gameObject.AddComponent<AudioSource>();
+    }
+
     public void UseItem(Sprite itemSprite)
     {
         if (itemSprite == null)
@@ -18,12 +28,15 @@ public class UsarItens : MonoBehaviour
         string itemName = itemSprite.name;
         Debug.Log("Usando item: " + itemName);
 
+        bool fezAcao = false;
+
         switch (itemName)
         {
             case "CHAVE_0":
                 if (bau != null)
                 {
                     bau.DestrancarBau();
+                    fezAcao = true;
                     if (inventario != null)
                     {
                         inventario.RemoveItem(itemSprite);
@@ -35,6 +48,7 @@ public class UsarItens : MonoBehaviour
                 if (bau != null && bau.aberto)
                 {
                     bau.ColocarBola();
+                    fezAcao = true;
                     if (inventario != null)
                     {
                         inventario.RemoveItem(itemSprite);
@@ -46,6 +60,7 @@ public class UsarItens : MonoBehaviour
                 if (bau != null && bau.aberto)
                 {
                     bau.ColocarBoneca();
+                    fezAcao = true;
                     if (inventario != null)
                     {
                         inventario.RemoveItem(itemSprite);
@@ -57,6 +72,7 @@ public class UsarItens : MonoBehaviour
                 if (estante != null && !estante.temLivro)
                 {
                     estante.ColocarLivro();
+                    fezAcao = true;
                     if (inventario != null)
                     {
                         inventario.RemoveItem(itemSprite);
@@ -68,6 +84,7 @@ public class UsarItens : MonoBehaviour
                 if (geladeira != null && geladeira.aberta && !geladeira.temLeite)
                 {
                     geladeira.ColocarLeite();
+                    fezAcao = true;
                     if (inventario != null)
                     {
                         inventario.RemoveItem(itemSprite);
@@ -78,6 +95,12 @@ public class UsarItens : MonoBehaviour
             default:
                 Debug.Log("Esse item não faz nada especial.");
                 break;
+        }
+
+        // Toca o áudio de concluído se fez alguma ação especial
+        if (fezAcao && audioConcluido != null && audioSource != null)
+        {
+            audioSource.PlayOneShot(audioConcluido);
         }
     }
 }
