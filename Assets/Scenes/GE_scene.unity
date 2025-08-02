@@ -3595,9 +3595,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Personagem
       objectReference: {fileID: 0}
+    - target: {fileID: 854106002059762583, guid: 5a8e6e9cebebe134bb5f3df3dcfc7c76, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 4185873005285729199, guid: 5a8e6e9cebebe134bb5f3df3dcfc7c76, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.0805926
+      value: -0.09
       objectReference: {fileID: 0}
     - target: {fileID: 4185873005285729199, guid: 5a8e6e9cebebe134bb5f3df3dcfc7c76, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5326,6 +5330,7 @@ MonoBehaviour:
   geladeira: {fileID: 1520762950}
   estante: {fileID: 47890161}
   inventario: {fileID: 225370098}
+  audioConcluido: {fileID: 0}
 --- !u!4 &1313408056
 Transform:
   m_ObjectHideFlags: 0
