@@ -1,97 +1,76 @@
 fileFormatVersion: 2
-guid: ad8eaf0e64518664388f08bcdbbf51ed
+guid: 01a09e34f821a9941abaea539ed703cc
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6207142926068979168
-    second: ANIMACAO_IDLE_0
+      213: 448762978116619970
+    second: ESTICANDO E BATENDO ANIMATION_0
   - first:
-      213: 822719789772266209
-    second: ANIMACAO_IDLE_1
+      213: -7889586330396863232
+    second: ESTICANDO E BATENDO ANIMATION_1
   - first:
-      213: 876054731431834357
-    second: ANIMACAO_IDLE_2
+      213: -4019927273915571525
+    second: ESTICANDO E BATENDO ANIMATION_2
   - first:
-      213: 6471274284427062821
-    second: ANIMACAO_IDLE_3
+      213: 3783951809422960219
+    second: ESTICANDO E BATENDO ANIMATION_3
   - first:
-      213: -5824677343273219103
-    second: ANIMACAO_IDLE_4
+      213: 7783204023060289302
+    second: ESTICANDO E BATENDO ANIMATION_4
   - first:
-      213: -5005361639462594694
-    second: ANIMACAO_IDLE_5
+      213: -7502115066534266895
+    second: ESTICANDO E BATENDO ANIMATION_5
   - first:
-      213: -4367449993490457220
-    second: ANIMACAO_IDLE_6
+      213: -1800026492523704319
+    second: ESTICANDO E BATENDO ANIMATION_6
   - first:
-      213: 8953494124902392667
-    second: ANIMACAO_IDLE_7
+      213: -5143772337892624867
+    second: ESTICANDO E BATENDO ANIMATION_7
   - first:
-      213: 6666267852354743903
-    second: ANIMACAO_IDLE_8
+      213: -905938630535778440
+    second: ESTICANDO E BATENDO ANIMATION_8
   - first:
-      213: 6338534414010620261
-    second: ANIMACAO_IDLE_9
+      213: 799484200001181047
+    second: ESTICANDO E BATENDO ANIMATION_9
   - first:
-      213: 7357852111450022340
-    second: ANIMACAO_IDLE_10
+      213: -2732219696615900049
+    second: ESTICANDO E BATENDO ANIMATION_10
   - first:
-      213: 6838274052723612694
-    second: ANIMACAO_IDLE_11
+      213: -5597178985235760556
+    second: ESTICANDO E BATENDO ANIMATION_11
   - first:
-      213: 870967521326735759
-    second: ANIMACAO_IDLE_12
+      213: 1829537438118068158
+    second: ESTICANDO E BATENDO ANIMATION_12
   - first:
-      213: -7378287445171841402
-    second: ANIMACAO_IDLE_13
+      213: 2230527992359677507
+    second: ESTICANDO E BATENDO ANIMATION_13
   - first:
-      213: -1635499958836824323
-    second: ANIMACAO_IDLE_14
+      213: 4966075244672546054
+    second: ESTICANDO E BATENDO ANIMATION_14
   - first:
-      213: 8797099731636966582
-    second: ANIMACAO_IDLE_15
+      213: -9222055196409971195
+    second: ESTICANDO E BATENDO ANIMATION_15
   - first:
-      213: 7549812240827710467
-    second: ANIMACAO_IDLE_16
+      213: 9095530564587321768
+    second: ESTICANDO E BATENDO ANIMATION_16
   - first:
-      213: 6437935688166716061
-    second: ANIMACAO_IDLE_17
+      213: -569505568362817565
+    second: ESTICANDO E BATENDO ANIMATION_17
   - first:
-      213: 1794453290670312206
-    second: ANIMACAO_IDLE_18
+      213: 486372141006199774
+    second: ESTICANDO E BATENDO ANIMATION_18
   - first:
-      213: -917191619349239972
-    second: ANIMACAO_IDLE_19
+      213: -3418521191457419708
+    second: ESTICANDO E BATENDO ANIMATION_19
   - first:
-      213: -7951286803599956416
-    second: ANIMACAO_IDLE_20
+      213: -8664780648027984801
+    second: ESTICANDO E BATENDO ANIMATION_20
   - first:
-      213: -5742468955028150868
-    second: ANIMACAO_IDLE_21
+      213: 5754168807419873446
+    second: ESTICANDO E BATENDO ANIMATION_21
   - first:
-      213: -5340728208352679595
-    second: ANIMACAO_IDLE_22
-  - first:
-      213: 5608247017422560504
-    second: ANIMACAO_IDLE_23
-  - first:
-      213: 6699774104664726275
-    second: ANIMACAO_IDLE_24
-  - first:
-      213: -9130639124070708042
-    second: ANIMACAO_IDLE_25
-  - first:
-      213: 7823097186624545656
-    second: ANIMACAO_IDLE_26
-  - first:
-      213: -8412848328467766886
-    second: ANIMACAO_IDLE_27
-  - first:
-      213: 6723940190671663539
-    second: ANIMACAO_IDLE_28
-  - first:
-      213: -7851834828217717212
-    second: ANIMACAO_IDLE_29
+      213: -4539845063772589251
+    second: ESTICANDO E BATENDO ANIMATION_22
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -124,7 +103,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -187,7 +166,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_0
+      name: ESTICANDO E BATENDO ANIMATION_0
       rect:
         serializedVersion: 2
         x: 25
@@ -202,20 +181,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 02a6495456ccbd9a0800000000000000
-      internalID: -6207142926068979168
+      spriteID: 2ceccfa0d835a3600800000000000000
+      internalID: 448762978116619970
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_1
+      name: ESTICANDO E BATENDO ANIMATION_1
       rect:
         serializedVersion: 2
         x: 89
         y: 0
         width: 17
-        height: 46
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +203,108 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1ea5f033a43ea6b00800000000000000
-      internalID: 822719789772266209
+      spriteID: 005dae7880f828290800000000000000
+      internalID: -7889586330396863232
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_2
+      name: ESTICANDO E BATENDO ANIMATION_2
       rect:
         serializedVersion: 2
-        x: 150
+        x: 153
+        y: 0
+        width: 17
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb2ab5f51795638c0800000000000000
+      internalID: -4019927273915571525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESTICANDO E BATENDO ANIMATION_3
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 0
+        width: 17
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b562ad75f1c438430800000000000000
+      internalID: 3783951809422960219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESTICANDO E BATENDO ANIMATION_4
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 0
+        width: 17
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61756e062de730c60800000000000000
+      internalID: 7783204023060289302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESTICANDO E BATENDO ANIMATION_5
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 0
+        width: 17
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f77e1b481223e790800000000000000
+      internalID: -7502115066534266895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESTICANDO E BATENDO ANIMATION_6
+      rect:
+        serializedVersion: 2
+        x: 409
         y: 0
         width: 20
-        height: 46
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,130 +313,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5f27bcef22f582c00800000000000000
-      internalID: 876054731431834357
+      spriteID: 10015d621750507e0800000000000000
+      internalID: -1800026492523704319
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_3
+      name: ESTICANDO E BATENDO ANIMATION_7
       rect:
         serializedVersion: 2
-        x: 213
-        y: 0
-        width: 21
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 52e2567eca59ec950800000000000000
-      internalID: 6471274284427062821
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ANIMACAO_IDLE_4
-      rect:
-        serializedVersion: 2
-        x: 277
-        y: 0
-        width: 21
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1eb0fe611d69a2fa0800000000000000
-      internalID: -5824677343273219103
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ANIMACAO_IDLE_5
-      rect:
-        serializedVersion: 2
-        x: 341
-        y: 0
-        width: 21
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a771773cb12698ab0800000000000000
-      internalID: -5005361639462594694
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ANIMACAO_IDLE_6
-      rect:
-        serializedVersion: 2
-        x: 405
-        y: 0
-        width: 21
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c7d18b3ee53b363c0800000000000000
-      internalID: -4367449993490457220
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ANIMACAO_IDLE_7
-      rect:
-        serializedVersion: 2
-        x: 469
-        y: 0
-        width: 21
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b53aa5d0873314c70800000000000000
-      internalID: 8953494124902392667
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ANIMACAO_IDLE_8
-      rect:
-        serializedVersion: 2
-        x: 534
+        x: 473
         y: 0
         width: 20
-        height: 46
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -378,130 +335,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f5ee535da47538c50800000000000000
-      internalID: 6666267852354743903
+      spriteID: d16fd62cf46ad98b0800000000000000
+      internalID: -5143772337892624867
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_9
+      name: ESTICANDO E BATENDO ANIMATION_8
       rect:
         serializedVersion: 2
-        x: 597
-        y: 0
-        width: 21
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 56911bf677ff6f750800000000000000
-      internalID: 6338534414010620261
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ANIMACAO_IDLE_10
-      rect:
-        serializedVersion: 2
-        x: 661
-        y: 0
-        width: 21
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4c126d403875c1660800000000000000
-      internalID: 7357852111450022340
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ANIMACAO_IDLE_11
-      rect:
-        serializedVersion: 2
-        x: 725
-        y: 0
-        width: 21
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 61c9c5d250e66ee50800000000000000
-      internalID: 6838274052723612694
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ANIMACAO_IDLE_12
-      rect:
-        serializedVersion: 2
-        x: 789
-        y: 0
-        width: 21
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f812597985c461c00800000000000000
-      internalID: 870967521326735759
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ANIMACAO_IDLE_13
-      rect:
-        serializedVersion: 2
-        x: 853
-        y: 0
-        width: 21
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 686dec319ae0b9990800000000000000
-      internalID: -7378287445171841402
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ANIMACAO_IDLE_14
-      rect:
-        serializedVersion: 2
-        x: 918
+        x: 537
         y: 0
         width: 20
-        height: 46
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -510,20 +357,152 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: df67d53e3798d49e0800000000000000
-      internalID: -1635499958836824323
+      spriteID: 87f6c9a8d957d63f0800000000000000
+      internalID: -905938630535778440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_15
+      name: ESTICANDO E BATENDO ANIMATION_9
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 0
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7759b90e4a6581b00800000000000000
+      internalID: 799484200001181047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESTICANDO E BATENDO ANIMATION_10
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 0
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c32ee69a4351ad0800000000000000
+      internalID: -2732219696615900049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESTICANDO E BATENDO ANIMATION_11
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 0
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45abdb83e53d252b0800000000000000
+      internalID: -5597178985235760556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESTICANDO E BATENDO ANIMATION_12
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 0
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf3e4e4b92d36910800000000000000
+      internalID: 1829537438118068158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESTICANDO E BATENDO ANIMATION_13
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 0
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34ee926246d64fe10800000000000000
+      internalID: 2230527992359677507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESTICANDO E BATENDO ANIMATION_14
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 0
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6057196af1b0be440800000000000000
+      internalID: 4966075244672546054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESTICANDO E BATENDO ANIMATION_15
       rect:
         serializedVersion: 2
         x: 985
         y: 0
-        width: 17
-        height: 46
+        width: 28
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -532,20 +511,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6b4d7edc893951a70800000000000000
-      internalID: 8797099731636966582
+      spriteID: 50e30fec8ada40080800000000000000
+      internalID: -9222055196409971195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_16
+      name: ESTICANDO E BATENDO ANIMATION_16
       rect:
         serializedVersion: 2
         x: 1049
         y: 0
-        width: 17
-        height: 46
+        width: 28
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -554,20 +533,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 30c7e6f7b3256c860800000000000000
-      internalID: 7549812240827710467
+      spriteID: 8a97fe9bbd0d93e70800000000000000
+      internalID: 9095530564587321768
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_17
+      name: ESTICANDO E BATENDO ANIMATION_17
       rect:
         serializedVersion: 2
         x: 1113
         y: 0
-        width: 17
-        height: 46
+        width: 28
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -576,19 +555,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d92bcf31664285950800000000000000
-      internalID: 6437935688166716061
+      spriteID: 3e79024f3b5b818f0800000000000000
+      internalID: -569505568362817565
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_18
+      name: ESTICANDO E BATENDO ANIMATION_18
       rect:
         serializedVersion: 2
         x: 1177
         y: 0
-        width: 17
+        width: 29
         height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -598,19 +577,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e0b4f6ca2cd27e810800000000000000
-      internalID: 1794453290670312206
+      spriteID: edb1255a2e0ffb600800000000000000
+      internalID: 486372141006199774
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_19
+      name: ESTICANDO E BATENDO ANIMATION_19
       rect:
         serializedVersion: 2
         x: 1241
         y: 0
-        width: 17
+        width: 29
         height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -620,19 +599,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c5729b9e41b7543f0800000000000000
-      internalID: -917191619349239972
+      spriteID: 44e0906a619fe80d0800000000000000
+      internalID: -3418521191457419708
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_20
+      name: ESTICANDO E BATENDO ANIMATION_20
       rect:
         serializedVersion: 2
         x: 1305
         y: 0
-        width: 17
+        width: 29
         height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -642,19 +621,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0466c24a7ca57a190800000000000000
-      internalID: -7951286803599956416
+      spriteID: f5cec9998e380c780800000000000000
+      internalID: -8664780648027984801
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_21
+      name: ESTICANDO E BATENDO ANIMATION_21
       rect:
         serializedVersion: 2
         x: 1369
         y: 0
-        width: 17
+        width: 29
         height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -664,63 +643,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ca5a6d909e6ae40b0800000000000000
-      internalID: -5742468955028150868
+      spriteID: 6a805ef1b0aeadf40800000000000000
+      internalID: 5754168807419873446
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_22
+      name: ESTICANDO E BATENDO ANIMATION_22
       rect:
         serializedVersion: 2
         x: 1433
         y: 0
-        width: 17
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 559ea3badfbe1e5b0800000000000000
-      internalID: -5340728208352679595
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ANIMACAO_IDLE_23
-      rect:
-        serializedVersion: 2
-        x: 1497
-        y: 0
-        width: 17
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8fc9d16d2fe74dd40800000000000000
-      internalID: 5608247017422560504
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ANIMACAO_IDLE_24
-      rect:
-        serializedVersion: 2
-        x: 1561
-        y: 0
-        width: 17
+        width: 29
         height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -730,118 +665,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 30bd6ef1d016afc50800000000000000
-      internalID: 6699774104664726275
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ANIMACAO_IDLE_25
-      rect:
-        serializedVersion: 2
-        x: 1625
-        y: 0
-        width: 17
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6bc4b75c714794180800000000000000
-      internalID: -9130639124070708042
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ANIMACAO_IDLE_26
-      rect:
-        serializedVersion: 2
-        x: 1689
-        y: 0
-        width: 17
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8732d145179319c60800000000000000
-      internalID: 7823097186624545656
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ANIMACAO_IDLE_27
-      rect:
-        serializedVersion: 2
-        x: 1753
-        y: 0
-        width: 17
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a91a078b40f8f3b80800000000000000
-      internalID: -8412848328467766886
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ANIMACAO_IDLE_28
-      rect:
-        serializedVersion: 2
-        x: 1817
-        y: 0
-        width: 17
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3b1f4fb7afb305d50800000000000000
-      internalID: 6723940190671663539
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: ANIMACAO_IDLE_29
-      rect:
-        serializedVersion: 2
-        x: 1881
-        y: 0
-        width: 17
-        height: 46
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 42eea0513dda80390800000000000000
-      internalID: -7851834828217717212
+      spriteID: d333686b7fa3ff0c0800000000000000
+      internalID: -4539845063772589251
       vertices: []
       indices: 
       edges: []
@@ -859,37 +684,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      ANIMACAO_IDLE_0: -6207142926068979168
-      ANIMACAO_IDLE_1: 822719789772266209
-      ANIMACAO_IDLE_10: 7357852111450022340
-      ANIMACAO_IDLE_11: 6838274052723612694
-      ANIMACAO_IDLE_12: 870967521326735759
-      ANIMACAO_IDLE_13: -7378287445171841402
-      ANIMACAO_IDLE_14: -1635499958836824323
-      ANIMACAO_IDLE_15: 8797099731636966582
-      ANIMACAO_IDLE_16: 7549812240827710467
-      ANIMACAO_IDLE_17: 6437935688166716061
-      ANIMACAO_IDLE_18: 1794453290670312206
-      ANIMACAO_IDLE_19: -917191619349239972
-      ANIMACAO_IDLE_2: 876054731431834357
-      ANIMACAO_IDLE_20: -7951286803599956416
-      ANIMACAO_IDLE_21: -5742468955028150868
-      ANIMACAO_IDLE_22: -5340728208352679595
-      ANIMACAO_IDLE_23: 5608247017422560504
-      ANIMACAO_IDLE_24: 6699774104664726275
-      ANIMACAO_IDLE_25: -9130639124070708042
-      ANIMACAO_IDLE_26: 7823097186624545656
-      ANIMACAO_IDLE_27: -8412848328467766886
-      ANIMACAO_IDLE_28: 6723940190671663539
-      ANIMACAO_IDLE_29: -7851834828217717212
-      ANIMACAO_IDLE_3: 6471274284427062821
-      ANIMACAO_IDLE_4: -5824677343273219103
-      ANIMACAO_IDLE_5: -5005361639462594694
-      ANIMACAO_IDLE_6: -4367449993490457220
-      ANIMACAO_IDLE_7: 8953494124902392667
-      ANIMACAO_IDLE_8: 6666267852354743903
-      ANIMACAO_IDLE_9: 6338534414010620261
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

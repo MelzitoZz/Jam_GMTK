@@ -1,97 +1,97 @@
 fileFormatVersion: 2
-guid: ad8eaf0e64518664388f08bcdbbf51ed
+guid: 70cccfc53f4346041954560c9db72387
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6207142926068979168
-    second: ANIMACAO_IDLE_0
+      213: 7788918296818540721
+    second: "ANIMA\xC7\xC3O IDLE_0"
   - first:
-      213: 822719789772266209
-    second: ANIMACAO_IDLE_1
+      213: 5805958869705887990
+    second: "ANIMA\xC7\xC3O IDLE_1"
   - first:
-      213: 876054731431834357
-    second: ANIMACAO_IDLE_2
+      213: -3989523227150735718
+    second: "ANIMA\xC7\xC3O IDLE_2"
   - first:
-      213: 6471274284427062821
-    second: ANIMACAO_IDLE_3
+      213: 5997334837757714872
+    second: "ANIMA\xC7\xC3O IDLE_3"
   - first:
-      213: -5824677343273219103
-    second: ANIMACAO_IDLE_4
+      213: 4858396192402338824
+    second: "ANIMA\xC7\xC3O IDLE_4"
   - first:
-      213: -5005361639462594694
-    second: ANIMACAO_IDLE_5
+      213: -8646729502590975880
+    second: "ANIMA\xC7\xC3O IDLE_5"
   - first:
-      213: -4367449993490457220
-    second: ANIMACAO_IDLE_6
+      213: -166776872864481684
+    second: "ANIMA\xC7\xC3O IDLE_6"
   - first:
-      213: 8953494124902392667
-    second: ANIMACAO_IDLE_7
+      213: -7715579986155262421
+    second: "ANIMA\xC7\xC3O IDLE_7"
   - first:
-      213: 6666267852354743903
-    second: ANIMACAO_IDLE_8
+      213: 6455771982031940497
+    second: "ANIMA\xC7\xC3O IDLE_8"
   - first:
-      213: 6338534414010620261
-    second: ANIMACAO_IDLE_9
+      213: -1674672642875141117
+    second: "ANIMA\xC7\xC3O IDLE_9"
   - first:
-      213: 7357852111450022340
-    second: ANIMACAO_IDLE_10
+      213: -4503189660531936925
+    second: "ANIMA\xC7\xC3O IDLE_10"
   - first:
-      213: 6838274052723612694
-    second: ANIMACAO_IDLE_11
+      213: -2623268344670189506
+    second: "ANIMA\xC7\xC3O IDLE_11"
   - first:
-      213: 870967521326735759
-    second: ANIMACAO_IDLE_12
+      213: -8705751943295283195
+    second: "ANIMA\xC7\xC3O IDLE_12"
   - first:
-      213: -7378287445171841402
-    second: ANIMACAO_IDLE_13
+      213: -507252133930082692
+    second: "ANIMA\xC7\xC3O IDLE_13"
   - first:
-      213: -1635499958836824323
-    second: ANIMACAO_IDLE_14
+      213: 5553210209399616143
+    second: "ANIMA\xC7\xC3O IDLE_14"
   - first:
-      213: 8797099731636966582
-    second: ANIMACAO_IDLE_15
+      213: 6185230034853804668
+    second: "ANIMA\xC7\xC3O IDLE_15"
   - first:
-      213: 7549812240827710467
-    second: ANIMACAO_IDLE_16
+      213: 3224651565053520025
+    second: "ANIMA\xC7\xC3O IDLE_16"
   - first:
-      213: 6437935688166716061
-    second: ANIMACAO_IDLE_17
+      213: 1240459446323497530
+    second: "ANIMA\xC7\xC3O IDLE_17"
   - first:
-      213: 1794453290670312206
-    second: ANIMACAO_IDLE_18
+      213: -2424336638210422641
+    second: "ANIMA\xC7\xC3O IDLE_18"
   - first:
-      213: -917191619349239972
-    second: ANIMACAO_IDLE_19
+      213: -2806697708892766541
+    second: "ANIMA\xC7\xC3O IDLE_19"
   - first:
-      213: -7951286803599956416
-    second: ANIMACAO_IDLE_20
+      213: 1636580254568305905
+    second: "ANIMA\xC7\xC3O IDLE_20"
   - first:
-      213: -5742468955028150868
-    second: ANIMACAO_IDLE_21
+      213: 3829291847401032625
+    second: "ANIMA\xC7\xC3O IDLE_21"
   - first:
-      213: -5340728208352679595
-    second: ANIMACAO_IDLE_22
+      213: 6728572241037973320
+    second: "ANIMA\xC7\xC3O IDLE_22"
   - first:
-      213: 5608247017422560504
-    second: ANIMACAO_IDLE_23
+      213: 781151629176640511
+    second: "ANIMA\xC7\xC3O IDLE_23"
   - first:
-      213: 6699774104664726275
-    second: ANIMACAO_IDLE_24
+      213: 8558998878995661834
+    second: "ANIMA\xC7\xC3O IDLE_24"
   - first:
-      213: -9130639124070708042
-    second: ANIMACAO_IDLE_25
+      213: 7969071273491763028
+    second: "ANIMA\xC7\xC3O IDLE_25"
   - first:
-      213: 7823097186624545656
-    second: ANIMACAO_IDLE_26
+      213: -4785309460160177270
+    second: "ANIMA\xC7\xC3O IDLE_26"
   - first:
-      213: -8412848328467766886
-    second: ANIMACAO_IDLE_27
+      213: 5324732486553333827
+    second: "ANIMA\xC7\xC3O IDLE_27"
   - first:
-      213: 6723940190671663539
-    second: ANIMACAO_IDLE_28
+      213: -7776484977091790183
+    second: "ANIMA\xC7\xC3O IDLE_28"
   - first:
-      213: -7851834828217717212
-    second: ANIMACAO_IDLE_29
+      213: 5793362396428325202
+    second: "ANIMA\xC7\xC3O IDLE_29"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -124,7 +124,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -187,7 +187,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_0
+      name: "ANIMA\xC7\xC3O IDLE_0"
       rect:
         serializedVersion: 2
         x: 25
@@ -202,14 +202,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 02a6495456ccbd9a0800000000000000
-      internalID: -6207142926068979168
+      spriteID: 1b0e86a6cebc71c60800000000000000
+      internalID: 7788918296818540721
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_1
+      name: "ANIMA\xC7\xC3O IDLE_1"
       rect:
         serializedVersion: 2
         x: 89
@@ -224,14 +224,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1ea5f033a43ea6b00800000000000000
-      internalID: 822719789772266209
+      spriteID: 6f01959a4d8e29050800000000000000
+      internalID: 5805958869705887990
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_2
+      name: "ANIMA\xC7\xC3O IDLE_2"
       rect:
         serializedVersion: 2
         x: 150
@@ -246,14 +246,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5f27bcef22f582c00800000000000000
-      internalID: 876054731431834357
+      spriteID: a96a28623cd52a8c0800000000000000
+      internalID: -3989523227150735718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_3
+      name: "ANIMA\xC7\xC3O IDLE_3"
       rect:
         serializedVersion: 2
         x: 213
@@ -268,14 +268,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 52e2567eca59ec950800000000000000
-      internalID: 6471274284427062821
+      spriteID: 8b1af9b7240da3350800000000000000
+      internalID: 5997334837757714872
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_4
+      name: "ANIMA\xC7\xC3O IDLE_4"
       rect:
         serializedVersion: 2
         x: 277
@@ -290,14 +290,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1eb0fe611d69a2fa0800000000000000
-      internalID: -5824677343273219103
+      spriteID: 804704a989d7c6340800000000000000
+      internalID: 4858396192402338824
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_5
+      name: "ANIMA\xC7\xC3O IDLE_5"
       rect:
         serializedVersion: 2
         x: 341
@@ -312,14 +312,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a771773cb12698ab0800000000000000
-      internalID: -5005361639462594694
+      spriteID: 870cc296455a00880800000000000000
+      internalID: -8646729502590975880
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_6
+      name: "ANIMA\xC7\xC3O IDLE_6"
       rect:
         serializedVersion: 2
         x: 405
@@ -334,14 +334,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c7d18b3ee53b363c0800000000000000
-      internalID: -4367449993490457220
+      spriteID: c6e7928515d7fadf0800000000000000
+      internalID: -166776872864481684
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_7
+      name: "ANIMA\xC7\xC3O IDLE_7"
       rect:
         serializedVersion: 2
         x: 469
@@ -356,14 +356,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b53aa5d0873314c70800000000000000
-      internalID: 8953494124902392667
+      spriteID: b2e2a19a1e0cce490800000000000000
+      internalID: -7715579986155262421
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_8
+      name: "ANIMA\xC7\xC3O IDLE_8"
       rect:
         serializedVersion: 2
         x: 534
@@ -378,14 +378,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f5ee535da47538c50800000000000000
-      internalID: 6666267852354743903
+      spriteID: 19beeebd962879950800000000000000
+      internalID: 6455771982031940497
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_9
+      name: "ANIMA\xC7\xC3O IDLE_9"
       rect:
         serializedVersion: 2
         x: 597
@@ -400,14 +400,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 56911bf677ff6f750800000000000000
-      internalID: 6338534414010620261
+      spriteID: 304dc56aa1e52c8e0800000000000000
+      internalID: -1674672642875141117
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_10
+      name: "ANIMA\xC7\xC3O IDLE_10"
       rect:
         serializedVersion: 2
         x: 661
@@ -422,14 +422,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4c126d403875c1660800000000000000
-      internalID: 7357852111450022340
+      spriteID: 36138c7dcd47181c0800000000000000
+      internalID: -4503189660531936925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_11
+      name: "ANIMA\xC7\xC3O IDLE_11"
       rect:
         serializedVersion: 2
         x: 725
@@ -444,14 +444,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 61c9c5d250e66ee50800000000000000
-      internalID: 6838274052723612694
+      spriteID: e380865d657489bd0800000000000000
+      internalID: -2623268344670189506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_12
+      name: "ANIMA\xC7\xC3O IDLE_12"
       rect:
         serializedVersion: 2
         x: 789
@@ -466,14 +466,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f812597985c461c00800000000000000
-      internalID: 870967521326735759
+      spriteID: 500d73d8bb4fe2780800000000000000
+      internalID: -8705751943295283195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_13
+      name: "ANIMA\xC7\xC3O IDLE_13"
       rect:
         serializedVersion: 2
         x: 853
@@ -488,14 +488,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 686dec319ae0b9990800000000000000
-      internalID: -7378287445171841402
+      spriteID: c7ed9892fd0e5f8f0800000000000000
+      internalID: -507252133930082692
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_14
+      name: "ANIMA\xC7\xC3O IDLE_14"
       rect:
         serializedVersion: 2
         x: 918
@@ -510,14 +510,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: df67d53e3798d49e0800000000000000
-      internalID: -1635499958836824323
+      spriteID: f8236566347f01d40800000000000000
+      internalID: 5553210209399616143
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_15
+      name: "ANIMA\xC7\xC3O IDLE_15"
       rect:
         serializedVersion: 2
         x: 985
@@ -532,14 +532,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6b4d7edc893951a70800000000000000
-      internalID: 8797099731636966582
+      spriteID: c7ab98922f956d550800000000000000
+      internalID: 6185230034853804668
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_16
+      name: "ANIMA\xC7\xC3O IDLE_16"
       rect:
         serializedVersion: 2
         x: 1049
@@ -554,14 +554,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 30c7e6f7b3256c860800000000000000
-      internalID: 7549812240827710467
+      spriteID: 9982c63738340cc20800000000000000
+      internalID: 3224651565053520025
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_17
+      name: "ANIMA\xC7\xC3O IDLE_17"
       rect:
         serializedVersion: 2
         x: 1113
@@ -576,14 +576,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d92bcf31664285950800000000000000
-      internalID: 6437935688166716061
+      spriteID: a3ac3605b4ff63110800000000000000
+      internalID: 1240459446323497530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_18
+      name: "ANIMA\xC7\xC3O IDLE_18"
       rect:
         serializedVersion: 2
         x: 1177
@@ -598,14 +598,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e0b4f6ca2cd27e810800000000000000
-      internalID: 1794453290670312206
+      spriteID: f88c0871ca60b5ed0800000000000000
+      internalID: -2424336638210422641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_19
+      name: "ANIMA\xC7\xC3O IDLE_19"
       rect:
         serializedVersion: 2
         x: 1241
@@ -620,14 +620,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c5729b9e41b7543f0800000000000000
-      internalID: -917191619349239972
+      spriteID: 3be3b85ed4b9c09d0800000000000000
+      internalID: -2806697708892766541
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_20
+      name: "ANIMA\xC7\xC3O IDLE_20"
       rect:
         serializedVersion: 2
         x: 1305
@@ -642,14 +642,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0466c24a7ca57a190800000000000000
-      internalID: -7951286803599956416
+      spriteID: 1f456ff021d46b610800000000000000
+      internalID: 1636580254568305905
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_21
+      name: "ANIMA\xC7\xC3O IDLE_21"
       rect:
         serializedVersion: 2
         x: 1369
@@ -664,14 +664,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ca5a6d909e6ae40b0800000000000000
-      internalID: -5742468955028150868
+      spriteID: 1bb43a195a0642530800000000000000
+      internalID: 3829291847401032625
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_22
+      name: "ANIMA\xC7\xC3O IDLE_22"
       rect:
         serializedVersion: 2
         x: 1433
@@ -686,14 +686,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 559ea3badfbe1e5b0800000000000000
-      internalID: -5340728208352679595
+      spriteID: 8475f90cdc0b06d50800000000000000
+      internalID: 6728572241037973320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_23
+      name: "ANIMA\xC7\xC3O IDLE_23"
       rect:
         serializedVersion: 2
         x: 1497
@@ -708,14 +708,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8fc9d16d2fe74dd40800000000000000
-      internalID: 5608247017422560504
+      spriteID: ff39acc944537da00800000000000000
+      internalID: 781151629176640511
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_24
+      name: "ANIMA\xC7\xC3O IDLE_24"
       rect:
         serializedVersion: 2
         x: 1561
@@ -730,14 +730,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 30bd6ef1d016afc50800000000000000
-      internalID: 6699774104664726275
+      spriteID: a04c087022ca7c670800000000000000
+      internalID: 8558998878995661834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_25
+      name: "ANIMA\xC7\xC3O IDLE_25"
       rect:
         serializedVersion: 2
         x: 1625
@@ -752,14 +752,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6bc4b75c714794180800000000000000
-      internalID: -9130639124070708042
+      spriteID: 45f0f3ee914d79e60800000000000000
+      internalID: 7969071273491763028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_26
+      name: "ANIMA\xC7\xC3O IDLE_26"
       rect:
         serializedVersion: 2
         x: 1689
@@ -774,14 +774,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8732d145179319c60800000000000000
-      internalID: 7823097186624545656
+      spriteID: a8b16de466a279db0800000000000000
+      internalID: -4785309460160177270
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_27
+      name: "ANIMA\xC7\xC3O IDLE_27"
       rect:
         serializedVersion: 2
         x: 1753
@@ -796,14 +796,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a91a078b40f8f3b80800000000000000
-      internalID: -8412848328467766886
+      spriteID: 3407ef02cff35e940800000000000000
+      internalID: 5324732486553333827
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_28
+      name: "ANIMA\xC7\xC3O IDLE_28"
       rect:
         serializedVersion: 2
         x: 1817
@@ -818,14 +818,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3b1f4fb7afb305d50800000000000000
-      internalID: 6723940190671663539
+      spriteID: 99a384b6d10641490800000000000000
+      internalID: -7776484977091790183
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_IDLE_29
+      name: "ANIMA\xC7\xC3O IDLE_29"
       rect:
         serializedVersion: 2
         x: 1881
@@ -840,8 +840,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 42eea0513dda80390800000000000000
-      internalID: -7851834828217717212
+      spriteID: 251573ea768266050800000000000000
+      internalID: 5793362396428325202
       vertices: []
       indices: 
       edges: []
@@ -859,37 +859,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      ANIMACAO_IDLE_0: -6207142926068979168
-      ANIMACAO_IDLE_1: 822719789772266209
-      ANIMACAO_IDLE_10: 7357852111450022340
-      ANIMACAO_IDLE_11: 6838274052723612694
-      ANIMACAO_IDLE_12: 870967521326735759
-      ANIMACAO_IDLE_13: -7378287445171841402
-      ANIMACAO_IDLE_14: -1635499958836824323
-      ANIMACAO_IDLE_15: 8797099731636966582
-      ANIMACAO_IDLE_16: 7549812240827710467
-      ANIMACAO_IDLE_17: 6437935688166716061
-      ANIMACAO_IDLE_18: 1794453290670312206
-      ANIMACAO_IDLE_19: -917191619349239972
-      ANIMACAO_IDLE_2: 876054731431834357
-      ANIMACAO_IDLE_20: -7951286803599956416
-      ANIMACAO_IDLE_21: -5742468955028150868
-      ANIMACAO_IDLE_22: -5340728208352679595
-      ANIMACAO_IDLE_23: 5608247017422560504
-      ANIMACAO_IDLE_24: 6699774104664726275
-      ANIMACAO_IDLE_25: -9130639124070708042
-      ANIMACAO_IDLE_26: 7823097186624545656
-      ANIMACAO_IDLE_27: -8412848328467766886
-      ANIMACAO_IDLE_28: 6723940190671663539
-      ANIMACAO_IDLE_29: -7851834828217717212
-      ANIMACAO_IDLE_3: 6471274284427062821
-      ANIMACAO_IDLE_4: -5824677343273219103
-      ANIMACAO_IDLE_5: -5005361639462594694
-      ANIMACAO_IDLE_6: -4367449993490457220
-      ANIMACAO_IDLE_7: 8953494124902392667
-      ANIMACAO_IDLE_8: 6666267852354743903
-      ANIMACAO_IDLE_9: 6338534414010620261
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

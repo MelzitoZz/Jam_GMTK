@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c275c7d2a53bb6743a9cd787f670c9c7
+guid: 73c82b3ee87ff4c49b052982d19e731b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3103345854960523404
-    second: FUNDO_DO_MENEU_0
+      213: -2376529263923143149
+    second: FUNDO DO MENEU_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -100,7 +100,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FUNDO_DO_MENEU_0
+      name: FUNDO DO MENEU_0
       rect:
         serializedVersion: 2
         x: 0
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c885a14ec9c411b20800000000000000
-      internalID: 3103345854960523404
+      spriteID: 31e5a81d93fd40fd0800000000000000
+      internalID: -2376529263923143149
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      FUNDO_DO_MENEU_0: 3103345854960523404
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

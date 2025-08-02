@@ -1,58 +1,58 @@
 fileFormatVersion: 2
-guid: 938303b481e386742a6642fe94249caf
+guid: 822c383edaf66304b8d3c14e32d6c711
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3739035877702947758
-    second: everyday_normal_guy_0
+      213: 841544935472531640
+    second: everyday normal guy_0
   - first:
-      213: 6873796295404480033
-    second: everyday_normal_guy_1
+      213: 1127416882722697355
+    second: everyday normal guy_1
   - first:
-      213: -3890769563487352943
-    second: everyday_normal_guy_2
+      213: 3332206588312833794
+    second: everyday normal guy_2
   - first:
-      213: 1082377001803918027
-    second: everyday_normal_guy_3
+      213: 4864878817298547443
+    second: everyday normal guy_3
   - first:
-      213: 2389048012534725830
-    second: everyday_normal_guy_4
+      213: 4213343179289788332
+    second: everyday normal guy_4
   - first:
-      213: -7758888627796045838
-    second: everyday_normal_guy_5
+      213: -6887989580132986145
+    second: everyday normal guy_5
   - first:
-      213: 5730691098328905411
-    second: everyday_normal_guy_6
+      213: -6658328880552627556
+    second: everyday normal guy_6
   - first:
-      213: 5754096283641237982
-    second: everyday_normal_guy_7
+      213: -7899957319826087816
+    second: everyday normal guy_7
   - first:
-      213: 6532628125854304219
-    second: everyday_normal_guy_8
+      213: -8034013070281831154
+    second: everyday normal guy_8
   - first:
-      213: 1534879031442399122
-    second: everyday_normal_guy_9
+      213: -2238889440764217269
+    second: everyday normal guy_9
   - first:
-      213: 768611700665720768
-    second: everyday_normal_guy_10
+      213: 7295167896736620076
+    second: everyday normal guy_10
   - first:
-      213: -4154514922048654780
-    second: everyday_normal_guy_11
+      213: -4490219221984344337
+    second: everyday normal guy_11
   - first:
-      213: -6268138816134469048
-    second: everyday_normal_guy_12
+      213: -1045778278988350175
+    second: everyday normal guy_12
   - first:
-      213: -750804670484127922
-    second: everyday_normal_guy_13
+      213: -3353049046292057989
+    second: everyday normal guy_13
   - first:
-      213: 589677236730077416
-    second: everyday_normal_guy_14
+      213: 3848403369963282871
+    second: everyday normal guy_14
   - first:
-      213: 9006597129437660815
-    second: everyday_normal_guy_15
+      213: 2351176210977566058
+    second: everyday normal guy_15
   - first:
-      213: -7509182299508664962
-    second: everyday_normal_guy_16
+      213: -2448640069586364283
+    second: everyday normal guy_16
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -85,7 +85,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -94,7 +94,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -148,7 +148,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: everyday_normal_guy_0
+      name: everyday normal guy_0
       rect:
         serializedVersion: 2
         x: 143
@@ -163,14 +163,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ea3dcec0259b3e330800000000000000
-      internalID: 3739035877702947758
+      spriteID: 8b88e5df8a4cdab00800000000000000
+      internalID: 841544935472531640
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: everyday_normal_guy_1
+      name: everyday normal guy_1
       rect:
         serializedVersion: 2
         x: 300
@@ -185,14 +185,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 126eafdcf41a46f50800000000000000
-      internalID: 6873796295404480033
+      spriteID: b80f6787ea365af00800000000000000
+      internalID: 1127416882722697355
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: everyday_normal_guy_2
+      name: everyday normal guy_2
       rect:
         serializedVersion: 2
         x: 457
@@ -207,14 +207,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1974f6932b5310ac0800000000000000
-      internalID: -3890769563487352943
+      spriteID: 20f4a9ebc306e3e20800000000000000
+      internalID: 3332206588312833794
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: everyday_normal_guy_3
+      name: everyday normal guy_3
       rect:
         serializedVersion: 2
         x: 464
@@ -229,14 +229,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bca23910620650f00800000000000000
-      internalID: 1082377001803918027
+      spriteID: 3f207645285838340800000000000000
+      internalID: 4864878817298547443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: everyday_normal_guy_4
+      name: everyday normal guy_4
       rect:
         serializedVersion: 2
         x: 614
@@ -251,14 +251,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6cc3c7a728a972120800000000000000
-      internalID: 2389048012534725830
+      spriteID: caff16e5c4dc87a30800000000000000
+      internalID: 4213343179289788332
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: everyday_normal_guy_5
+      name: everyday normal guy_5
       rect:
         serializedVersion: 2
         x: 727
@@ -273,14 +273,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2ff0660c6e3e25490800000000000000
-      internalID: -7758888627796045838
+      spriteID: fd2d49398f1f860a0800000000000000
+      internalID: -6887989580132986145
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: everyday_normal_guy_6
+      name: everyday normal guy_6
       rect:
         serializedVersion: 2
         x: 884
@@ -295,14 +295,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3c633610131878f40800000000000000
-      internalID: 5730691098328905411
+      spriteID: c92bfe4192dd893a0800000000000000
+      internalID: -6658328880552627556
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: everyday_normal_guy_7
+      name: everyday normal guy_7
       rect:
         serializedVersion: 2
         x: 1041
@@ -317,14 +317,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ed1d4dd5518aadf40800000000000000
-      internalID: 5754096283641237982
+      spriteID: 870e4036ca6bd5290800000000000000
+      internalID: -7899957319826087816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: everyday_normal_guy_8
+      name: everyday normal guy_8
       rect:
         serializedVersion: 2
         x: 1198
@@ -339,14 +339,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bd7854b4bae88aa50800000000000000
-      internalID: 6532628125854304219
+      spriteID: e0d8109bda3718090800000000000000
+      internalID: -8034013070281831154
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: everyday_normal_guy_9
+      name: everyday normal guy_9
       rect:
         serializedVersion: 2
         x: 144
@@ -361,14 +361,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 29fd152d85cfc4510800000000000000
-      internalID: 1534879031442399122
+      spriteID: b4830ef6aeddde0e0800000000000000
+      internalID: -2238889440764217269
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: everyday_normal_guy_10
+      name: everyday normal guy_10
       rect:
         serializedVersion: 2
         x: 205
@@ -383,14 +383,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0cf936cf448aaaa00800000000000000
-      internalID: 768611700665720768
+      spriteID: c2ed1d5fc84ad3560800000000000000
+      internalID: 7295167896736620076
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: everyday_normal_guy_11
+      name: everyday normal guy_11
       rect:
         serializedVersion: 2
         x: 265
@@ -405,14 +405,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 442fa31a0b23856c0800000000000000
-      internalID: -4154514922048654780
+      spriteID: fe60ef568698fa1c0800000000000000
+      internalID: -4490219221984344337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: everyday_normal_guy_12
+      name: everyday normal guy_12
       rect:
         serializedVersion: 2
         x: 309
@@ -427,14 +427,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 84aa77de4f81309a0800000000000000
-      internalID: -6268138816134469048
+      spriteID: 12d741f2236ac71f0800000000000000
+      internalID: -1045778278988350175
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: everyday_normal_guy_13
+      name: everyday normal guy_13
       rect:
         serializedVersion: 2
         x: 403
@@ -449,14 +449,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e4fd610512b9495f0800000000000000
-      internalID: -750804670484127922
+      spriteID: b70bc4958a39771d0800000000000000
+      internalID: -3353049046292057989
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: everyday_normal_guy_14
+      name: everyday normal guy_14
       rect:
         serializedVersion: 2
         x: 517
@@ -471,14 +471,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8e02e639254fe2800800000000000000
-      internalID: 589677236730077416
+      spriteID: 7b1e31ba976486530800000000000000
+      internalID: 3848403369963282871
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: everyday_normal_guy_15
+      name: everyday normal guy_15
       rect:
         serializedVersion: 2
         x: 578
@@ -493,14 +493,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f864f27ce5cddfc70800000000000000
-      internalID: 9006597129437660815
+      spriteID: a6daaab8e4e01a020800000000000000
+      internalID: 2351176210977566058
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: everyday_normal_guy_16
+      name: everyday normal guy_16
       rect:
         serializedVersion: 2
         x: 638
@@ -515,8 +515,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e759224eb760ac790800000000000000
-      internalID: -7509182299508664962
+      spriteID: 588548584dea40ed0800000000000000
+      internalID: -2448640069586364283
       vertices: []
       indices: 
       edges: []
@@ -525,7 +525,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -534,24 +534,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      everyday_normal_guy_0: 3739035877702947758
-      everyday_normal_guy_1: 6873796295404480033
-      everyday_normal_guy_10: 768611700665720768
-      everyday_normal_guy_11: -4154514922048654780
-      everyday_normal_guy_12: -6268138816134469048
-      everyday_normal_guy_13: -750804670484127922
-      everyday_normal_guy_14: 589677236730077416
-      everyday_normal_guy_15: 9006597129437660815
-      everyday_normal_guy_16: -7509182299508664962
-      everyday_normal_guy_2: -3890769563487352943
-      everyday_normal_guy_3: 1082377001803918027
-      everyday_normal_guy_4: 2389048012534725830
-      everyday_normal_guy_5: -7758888627796045838
-      everyday_normal_guy_6: 5730691098328905411
-      everyday_normal_guy_7: 5754096283641237982
-      everyday_normal_guy_8: 6532628125854304219
-      everyday_normal_guy_9: 1534879031442399122
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

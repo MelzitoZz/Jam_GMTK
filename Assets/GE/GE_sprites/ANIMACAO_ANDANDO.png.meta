@@ -70,7 +70,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -409,7 +409,19 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ANIMACAO_ANDANDO_0: -3192479357669607735
+      ANIMACAO_ANDANDO_1: -6249241678344229934
+      ANIMACAO_ANDANDO_10: 3979189295086169275
+      ANIMACAO_ANDANDO_11: 1875074591730343720
+      ANIMACAO_ANDANDO_2: 6583619481518876566
+      ANIMACAO_ANDANDO_3: -1476576958980002954
+      ANIMACAO_ANDANDO_4: 2250962737378194464
+      ANIMACAO_ANDANDO_5: 2769098251642027927
+      ANIMACAO_ANDANDO_6: 6570714333708765205
+      ANIMACAO_ANDANDO_7: 6922733641968459749
+      ANIMACAO_ANDANDO_8: 8706052576810975611
+      ANIMACAO_ANDANDO_9: 6715930521991795945
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
