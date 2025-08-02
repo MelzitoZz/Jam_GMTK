@@ -9,6 +9,8 @@ TagManager:
   - Mesa
   - Estante
   - Bater
+  - Ventilador
+  - Xicara
   layers:
   - Default
   - TransparentFX

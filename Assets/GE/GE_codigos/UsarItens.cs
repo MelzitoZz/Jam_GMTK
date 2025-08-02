@@ -4,19 +4,15 @@ public class UsarItens : MonoBehaviour
 {
     public BauController bau;
     public GeladeiraController geladeira;
-    public EstanteController estante; 
+    public EstanteController estante;
     public JB_Inventory inventario;
     public GameObject jogador;
     public GameObject bauDist;
     public GameObject estanteDist;
     public GameObject geladeiraDist;
     public float distanciaMaxima = 10f;
-    float distancia;
-    float distanciaEst;
-    float distanciaGel;
 
-
-    public AudioClip audioConcluido; // Arraste seu som de "concluído" aqui
+    public AudioClip audioConcluido;
     private AudioSource audioSource;
 
     void Awake()
@@ -43,123 +39,95 @@ public class UsarItens : MonoBehaviour
         {
             case "CHAVE_0":
                 if (bau != null)
-                {   
-                     distancia = Vector2.Distance(jogador.transform.position, bauDist.transform.position);
-
-                    if(distancia <= distanciaMaxima)
+                {
+                    float distancia = Vector2.Distance(jogador.transform.position, bauDist.transform.position);
+                    if (distancia <= distanciaMaxima)
                     {
                         bau.DestrancarBau();
                         fezAcao = true;
-                        if (inventario != null)
-                        {
-                        inventario.RemoveItem(itemSprite);
-                        inventario.UpdateUI();
-                        }
+                        RemoverItem(itemSprite);
                     }
-                    else
-                    {
-                        Debug.Log("Não foi possível utilizar a chave.");
-                    }  
+                    else Debug.Log("Você está longe demais do baú.");
                 }
                 break;
+
             case "BOLA_0":
-
-                    distancia = Vector2.Distance(jogador.transform.position, bauDist.transform.position);
-
-                if(distancia <= distanciaMaxima)
+                if (bau != null && bau.aberto)
                 {
-                    if (bau != null && bau.aberto)
-                    {   
+                    float distancia = Vector2.Distance(jogador.transform.position, bauDist.transform.position);
+                    if (distancia <= distanciaMaxima)
+                    {
                         bau.ColocarBola();
                         fezAcao = true;
-                        if (inventario != null)
-                        {
-                            inventario.RemoveItem(itemSprite);
-                            inventario.UpdateUI();
-                        }
+                        RemoverItem(itemSprite);
                     }
-                    else
-                    {
-                        Debug.Log("Não foi possível utilizar a bola.");
-                    }  
+                    else Debug.Log("Você está longe demais do baú.");
                 }
                 break;
-            case "BONECA_0":
-                 distancia = Vector2.Distance(jogador.transform.position, bauDist.transform.position);
 
-                if(distancia <= distanciaMaxima)
+            case "BONECA_0":
+                if (bau != null && bau.aberto)
                 {
-                    if (bau != null && bau.aberto)
+                    float distancia = Vector2.Distance(jogador.transform.position, bauDist.transform.position);
+                    if (distancia <= distanciaMaxima)
                     {
                         bau.ColocarBoneca();
                         fezAcao = true;
-                        if (inventario != null)
-                        {
-                            inventario.RemoveItem(itemSprite);
-                            inventario.UpdateUI();
-                        }
+                        RemoverItem(itemSprite);
                     }
-                    else
-                    {
-                        Debug.Log("Não foi possível utilizar a boneca.");
-                    }  
+                    else Debug.Log("Você está longe demais do baú.");
                 }
-                
                 break;
+
             case "LIVRO_0":
-
-                 distanciaEst = Vector2.Distance(jogador.transform.position, estanteDist.transform.position);
-
-                if(distanciaEst <= distanciaMaxima)
+                if (estante != null && !estante.temLivro)
                 {
-                   if (estante != null && !estante.temLivro)
+                    float distancia = Vector2.Distance(jogador.transform.position, estanteDist.transform.position);
+                    if (distancia <= distanciaMaxima)
                     {
                         estante.ColocarLivro();
                         fezAcao = true;
-                        if (inventario != null)
-                        {
-                            inventario.RemoveItem(itemSprite);
-                            inventario.UpdateUI();
-                        }
-                    } 
-                    else
-                    {
-                        Debug.Log("Não foi possível utilizar o livro.");
-                    } 
+                        RemoverItem(itemSprite);
+                    }
+                    else Debug.Log("Você está longe demais da estante.");
                 }
-                
                 break;
-            case "LEITE_0":
-                 distanciaGel = Vector2.Distance(jogador.transform.position, geladeiraDist.transform.position);
 
-                if(distanciaGel <= distanciaMaxima)
+            case "LEITE_0":
+                if (geladeira != null && geladeira.aberta && !geladeira.temLeite)
                 {
-                    if (geladeira != null && geladeira.aberta && !geladeira.temLeite)
+                    float distancia = Vector2.Distance(jogador.transform.position, geladeiraDist.transform.position);
+                    if (distancia <= distanciaMaxima)
                     {
                         geladeira.ColocarLeite();
                         fezAcao = true;
-                        if (inventario != null)
-                        {
-                            inventario.RemoveItem(itemSprite);
-                            inventario.UpdateUI();
-                        }
+                        RemoverItem(itemSprite);
                     }
-                    else
-                    {
-                        Debug.Log("Não foi possível utilizar o leite.");
-                    } 
+                    else Debug.Log("Você está longe demais da geladeira.");
                 }
-                
                 break;
+
+            case "XICARA DE CAFE_0":
+                Debug.Log("Você tomou a xícara de café!");
+                fezAcao = true;
+                RemoverItem(itemSprite);
+                break;
+
             default:
                 Debug.Log("Esse item não faz nada especial.");
                 break;
         }
 
-        // Toca o áudio de concluído se fez alguma ação especial
-        if (fezAcao && audioConcluido != null && audioSource != null)
-        {
+        if (fezAcao && audioConcluido != null)
             audioSource.PlayOneShot(audioConcluido);
+    }
+
+    private void RemoverItem(Sprite itemSprite)
+    {
+        if (inventario != null)
+        {
+            inventario.RemoveItem(itemSprite);
+            inventario.UpdateUI();
         }
     }
 }

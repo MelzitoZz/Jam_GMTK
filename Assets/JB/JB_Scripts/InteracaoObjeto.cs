@@ -4,7 +4,7 @@ public class InteracaoObjeto : MonoBehaviour
 {
     void OnTriggerStay2D(Collider2D other)
     {
-        // Baú
+        /*// Baú
         if (other.CompareTag("Bau") && Input.GetKeyDown(KeyCode.E))
         {
             Debug.Log("Detectado objeto com tag 'Bau' e pressionado E.");
@@ -30,6 +30,7 @@ public class InteracaoObjeto : MonoBehaviour
                 Debug.LogWarning("BauController não encontrado no objeto com tag 'Bau'.");
             }
         }
+        */
 
         // Geladeira
         if (other.CompareTag("Geladeira") && Input.GetKeyDown(KeyCode.E))
@@ -56,6 +57,19 @@ public class InteracaoObjeto : MonoBehaviour
             }
         }
 
-        // Atenção: lógica da mesa foi removida porque agora é feita com tecla P via ItemPickup.cs
+        if (other.CompareTag("Ventilador") && Input.GetKeyDown(KeyCode.E))
+        {
+            VentiladorController ventilador = other.GetComponent<VentiladorController>();
+                if (ventilador != null)
+            {
+                ventilador.AlternarSom();
+            }
+                else
+            {
+                Debug.LogWarning("VentiladorController não encontrado no objeto com tag 'Ventilador'.");
+            }
+        }
+
+        
     }
 }

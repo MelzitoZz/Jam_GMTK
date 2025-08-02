@@ -6,8 +6,10 @@ public class MesaController : MonoBehaviour
     public SpriteRenderer sr;
     public Sprite livroSprite;
     public JB_Inventory inventario;
+    public JB_ColetarMensagem coletarMensagem; // Mensagem de "User P"
 
     private bool livroColetado = false;
+    private bool jogadorPerto = false;
 
     void Start()
     {
@@ -16,16 +18,38 @@ public class MesaController : MonoBehaviour
 
         if (inventario == null)
             inventario = FindObjectOfType<JB_Inventory>();
+
+        if (coletarMensagem != null)
+            coletarMensagem.HideMessage();
     }
 
-    void OnTriggerStay2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        if (!livroColetado && other.CompareTag("Player") && Input.GetKeyDown(KeyCode.P))
+        if (!livroColetado && other.CompareTag("Player"))
+        {
+            jogadorPerto = true;
+            coletarMensagem?.ShowMessage();
+        }
+    }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            jogadorPerto = false;
+            coletarMensagem?.HideMessage();
+        }
+    }
+
+    void Update()
+    {
+        if (jogadorPerto && !livroColetado && Input.GetKeyDown(KeyCode.P))
         {
             if (inventario != null && inventario.AddItem(livroSprite))
             {
                 livroColetado = true;
                 sr.sprite = mesaSemLivroSprite;
+                coletarMensagem?.HideMessage();
                 Debug.Log("Livro coletado da mesa.");
             }
             else
