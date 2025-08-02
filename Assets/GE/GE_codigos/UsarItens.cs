@@ -6,6 +6,15 @@ public class UsarItens : MonoBehaviour
     public GeladeiraController geladeira;
     public EstanteController estante; 
     public JB_Inventory inventario;
+    public GameObject jogador;
+    public GameObject bauDist;
+    public GameObject estanteDist;
+    public GameObject geladeiraDist;
+    public float distanciaMaxima = 10f;
+    float distancia;
+    float distanciaEst;
+    float distanciaGel;
+
 
     public AudioClip audioConcluido; // Arraste seu som de "concluído" aqui
     private AudioSource audioSource;
@@ -34,63 +43,113 @@ public class UsarItens : MonoBehaviour
         {
             case "CHAVE_0":
                 if (bau != null)
-                {
-                    bau.DestrancarBau();
-                    fezAcao = true;
-                    if (inventario != null)
+                {   
+                     distancia = Vector2.Distance(jogador.transform.position, bauDist.transform.position);
+
+                    if(distancia <= distanciaMaxima)
                     {
+                        bau.DestrancarBau();
+                        fezAcao = true;
+                        if (inventario != null)
+                        {
                         inventario.RemoveItem(itemSprite);
                         inventario.UpdateUI();
+                        }
                     }
+                    else
+                    {
+                        Debug.Log("Não foi possível utilizar a chave.");
+                    }  
                 }
                 break;
             case "BOLA_0":
-                if (bau != null && bau.aberto)
+
+                    distancia = Vector2.Distance(jogador.transform.position, bauDist.transform.position);
+
+                if(distancia <= distanciaMaxima)
                 {
-                    bau.ColocarBola();
-                    fezAcao = true;
-                    if (inventario != null)
-                    {
-                        inventario.RemoveItem(itemSprite);
-                        inventario.UpdateUI();
+                    if (bau != null && bau.aberto)
+                    {   
+                        bau.ColocarBola();
+                        fezAcao = true;
+                        if (inventario != null)
+                        {
+                            inventario.RemoveItem(itemSprite);
+                            inventario.UpdateUI();
+                        }
                     }
+                    else
+                    {
+                        Debug.Log("Não foi possível utilizar a bola.");
+                    }  
                 }
                 break;
             case "BONECA_0":
-                if (bau != null && bau.aberto)
+                 distancia = Vector2.Distance(jogador.transform.position, bauDist.transform.position);
+
+                if(distancia <= distanciaMaxima)
                 {
-                    bau.ColocarBoneca();
-                    fezAcao = true;
-                    if (inventario != null)
+                    if (bau != null && bau.aberto)
                     {
-                        inventario.RemoveItem(itemSprite);
-                        inventario.UpdateUI();
+                        bau.ColocarBoneca();
+                        fezAcao = true;
+                        if (inventario != null)
+                        {
+                            inventario.RemoveItem(itemSprite);
+                            inventario.UpdateUI();
+                        }
                     }
+                    else
+                    {
+                        Debug.Log("Não foi possível utilizar a boneca.");
+                    }  
                 }
+                
                 break;
             case "LIVRO_0":
-                if (estante != null && !estante.temLivro)
+
+                 distanciaEst = Vector2.Distance(jogador.transform.position, estanteDist.transform.position);
+
+                if(distanciaEst <= distanciaMaxima)
                 {
-                    estante.ColocarLivro();
-                    fezAcao = true;
-                    if (inventario != null)
+                   if (estante != null && !estante.temLivro)
                     {
-                        inventario.RemoveItem(itemSprite);
-                        inventario.UpdateUI();
-                    }
+                        estante.ColocarLivro();
+                        fezAcao = true;
+                        if (inventario != null)
+                        {
+                            inventario.RemoveItem(itemSprite);
+                            inventario.UpdateUI();
+                        }
+                    } 
+                    else
+                    {
+                        Debug.Log("Não foi possível utilizar o livro.");
+                    } 
                 }
+                
                 break;
             case "LEITE_0":
-                if (geladeira != null && geladeira.aberta && !geladeira.temLeite)
+                 distanciaGel = Vector2.Distance(jogador.transform.position, geladeiraDist.transform.position);
+
+                if(distanciaGel <= distanciaMaxima)
                 {
-                    geladeira.ColocarLeite();
-                    fezAcao = true;
-                    if (inventario != null)
+                    if (geladeira != null && geladeira.aberta && !geladeira.temLeite)
                     {
-                        inventario.RemoveItem(itemSprite);
-                        inventario.UpdateUI();
+                        geladeira.ColocarLeite();
+                        fezAcao = true;
+                        if (inventario != null)
+                        {
+                            inventario.RemoveItem(itemSprite);
+                            inventario.UpdateUI();
+                        }
                     }
+                    else
+                    {
+                        Debug.Log("Não foi possível utilizar o leite.");
+                    } 
                 }
+                
                 break;
             default:
                 Debug.Log("Esse item não faz nada especial.");
