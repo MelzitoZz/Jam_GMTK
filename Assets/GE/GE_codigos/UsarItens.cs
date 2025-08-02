@@ -10,10 +10,13 @@ public class UsarItens : MonoBehaviour
     public GameObject bauDist;
     public GameObject estanteDist;
     public GameObject geladeiraDist;
+    public GameObject PCDist; // objeto usado só para calcular a distância do PC
+
     public float distanciaMaxima = 10f;
     float distancia;
     float distanciaEst;
     float distanciaGel;
+    float disPC;
 
     public AudioClip audioConcluido;
     private AudioSource audioSource;
@@ -24,6 +27,7 @@ public class UsarItens : MonoBehaviour
     // Fade durations para cada tipo de overlay (ajuste conforme necessário)
     private const int fadeOverlayNormal = 5;
     private const int fadeOverlayImportante = 12;
+    private const int fadeOverlaySla = 10;
 
     void Awake()
     {
@@ -147,6 +151,29 @@ public class UsarItens : MonoBehaviour
                 }
                 break;
 
+            case "CRACHÁ_0":
+                disPC = Vector2.Distance(jogador.transform.position, PCDist.transform.position);
+                if (disPC <= distanciaMaxima)
+                {
+                    fezAcao = true;
+                    if (inventario != null)
+                    {
+                        inventario.RemoveItem(itemSprite);
+                        inventario.UpdateUI();
+                    }
+                    // Desativa o overlay 10 imediatamente usando o método que você já tem
+                    if (backgroundAudioManager != null)
+                    {
+                        backgroundAudioManager.StopOverlayAudio(10);
+                    }
+                }
+                else
+                {
+                    Debug.Log("Não foi possível utilizar o crachá.");
+                }
+                break;
+
+
             default:
                 Debug.Log("Esse item não faz nada especial.");
                 break;
@@ -157,7 +184,6 @@ public class UsarItens : MonoBehaviour
             audioSource.PlayOneShot(audioConcluido);
         }
 
-        // Garante que o overlay só será parado UMA VEZ
         if (fezAcao && pararOverlay && !overlayAudioParado && backgroundAudioManager != null)
         {
             backgroundAudioManager.StopOverlayAudio(fadeTime);

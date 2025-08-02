@@ -7,12 +7,22 @@ public class JB_Inventory : MonoBehaviour
     private Sprite[] itemSprites;
 
     public BackgroundAudioManager backgroundAudioManager;
-    private bool overlayAudioParado = false;
+
+    public AudioClip audioTaskCompleta;
+    private AudioSource audioSource;
+
+    // Travas individuais para cada task
+    private bool taskBonecaBolaCompleta = false;
+    private bool taskCrachaCompleta = false;
 
     void Start()
     {
         itemSprites = new Sprite[itemImages.Length];
         UpdateUI();
+
+        audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+            audioSource = gameObject.AddComponent<AudioSource>();
     }
 
     public bool AddItem(Sprite itemSprite)
@@ -24,7 +34,6 @@ public class JB_Inventory : MonoBehaviour
                 itemSprites[i] = itemSprite;
                 UpdateUI();
 
-                // Verifica se pegou boneca e bola
                 PararOverlaySePegouBonecaEBola();
 
                 return true;
@@ -76,12 +85,10 @@ public class JB_Inventory : MonoBehaviour
             }
         }
     }
+
     private void PararOverlaySePegouBonecaEBola()
     {
-        if (overlayAudioParado || backgroundAudioManager == null)
-            return;
-
-        bool temBoneca = false, temBola = false;
+        bool temBoneca = false, temBola = false, temCracha = false;
 
         foreach (Sprite s in itemSprites)
         {
@@ -89,13 +96,25 @@ public class JB_Inventory : MonoBehaviour
             {
                 if (s.name == "BONECA_0") temBoneca = true;
                 if (s.name == "BOLA_0") temBola = true;
+                if (s.name == "CRACHÁ_0") temCracha = true;
             }
         }
 
-        if (temBoneca && temBola)
+        if (temBoneca && temBola && !taskBonecaBolaCompleta)
         {
-            backgroundAudioManager.StopOverlayAudio(9);
-            overlayAudioParado = true;
+            if (backgroundAudioManager != null)
+                backgroundAudioManager.StopOverlayAudio(9);
+            if (audioTaskCompleta != null && audioSource != null)
+                audioSource.PlayOneShot(audioTaskCompleta);
+            taskBonecaBolaCompleta = true;
+        }
+        if (temCracha && !taskCrachaCompleta)
+        {
+            if (backgroundAudioManager != null)
+                backgroundAudioManager.StopOverlayAudio(4);
+            if (audioTaskCompleta != null && audioSource != null)
+                audioSource.PlayOneShot(audioTaskCompleta);
+            taskCrachaCompleta = true;
         }
     }
 }
