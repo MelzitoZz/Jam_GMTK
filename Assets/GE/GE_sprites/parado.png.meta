@@ -124,7 +124,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -859,7 +859,37 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      parado_0: -1311018314348410255
+      parado_1: 9136818411313906331
+      parado_10: -3755955026476026129
+      parado_11: 297862262591562995
+      parado_12: 6330184168381785790
+      parado_13: -6975405486638634279
+      parado_14: 9027423460501718391
+      parado_15: 4339134759937301393
+      parado_16: 4296678947190374943
+      parado_17: 2167987476031134759
+      parado_18: -8287867361744548727
+      parado_19: 596876957374139006
+      parado_2: 8985720094123856107
+      parado_20: -4790678126864315341
+      parado_21: 6517272539505231402
+      parado_22: -631287138788500086
+      parado_23: -5725798890526187420
+      parado_24: -7139059349770806861
+      parado_25: -9165675062348307228
+      parado_26: -3600232173614044634
+      parado_27: 7733813095019017743
+      parado_28: 5286348833252889547
+      parado_29: -6024434651982342412
+      parado_3: 1510499940175585367
+      parado_4: 1214604899726533070
+      parado_5: -4751950565994555006
+      parado_6: -3907057522331767715
+      parado_7: 2283575175186717356
+      parado_8: 6804496845303959043
+      parado_9: 8151556145429097963
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
