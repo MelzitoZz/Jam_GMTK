@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 938303b481e386742a6642fe94249caf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3739035877702947758
+    second: everyday_normal_guy_0
+  - first:
+      213: 6873796295404480033
+    second: everyday_normal_guy_1
+  - first:
+      213: -3890769563487352943
+    second: everyday_normal_guy_2
+  - first:
+      213: 1082377001803918027
+    second: everyday_normal_guy_3
+  - first:
+      213: 2389048012534725830
+    second: everyday_normal_guy_4
+  - first:
+      213: -7758888627796045838
+    second: everyday_normal_guy_5
+  - first:
+      213: 5730691098328905411
+    second: everyday_normal_guy_6
+  - first:
+      213: 5754096283641237982
+    second: everyday_normal_guy_7
+  - first:
+      213: 6532628125854304219
+    second: everyday_normal_guy_8
+  - first:
+      213: 1534879031442399122
+    second: everyday_normal_guy_9
+  - first:
+      213: 768611700665720768
+    second: everyday_normal_guy_10
+  - first:
+      213: -4154514922048654780
+    second: everyday_normal_guy_11
+  - first:
+      213: -6268138816134469048
+    second: everyday_normal_guy_12
+  - first:
+      213: -750804670484127922
+    second: everyday_normal_guy_13
+  - first:
+      213: 589677236730077416
+    second: everyday_normal_guy_14
+  - first:
+      213: 9006597129437660815
+    second: everyday_normal_guy_15
+  - first:
+      213: -7509182299508664962
+    second: everyday_normal_guy_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: everyday_normal_guy_0
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 865
+        width: 134
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea3dcec0259b3e330800000000000000
+      internalID: 3739035877702947758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everyday_normal_guy_1
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 865
+        width: 134
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 126eafdcf41a46f50800000000000000
+      internalID: 6873796295404480033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everyday_normal_guy_2
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 865
+        width: 134
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1974f6932b5310ac0800000000000000
+      internalID: -3890769563487352943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everyday_normal_guy_3
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 743
+        width: 19
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca23910620650f00800000000000000
+      internalID: 1082377001803918027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everyday_normal_guy_4
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 865
+        width: 91
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cc3c7a728a972120800000000000000
+      internalID: 2389048012534725830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everyday_normal_guy_5
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 777
+        width: 134
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff0660c6e3e25490800000000000000
+      internalID: -7758888627796045838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everyday_normal_guy_6
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 865
+        width: 134
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c633610131878f40800000000000000
+      internalID: 5730691098328905411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everyday_normal_guy_7
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 865
+        width: 135
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed1d4dd5518aadf40800000000000000
+      internalID: 5754096283641237982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everyday_normal_guy_8
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 777
+        width: 135
+        height: 337
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd7854b4bae88aa50800000000000000
+      internalID: 6532628125854304219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everyday_normal_guy_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 743
+        width: 54
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29fd152d85cfc4510800000000000000
+      internalID: 1534879031442399122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everyday_normal_guy_10
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 743
+        width: 53
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf936cf448aaaa00800000000000000
+      internalID: 768611700665720768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everyday_normal_guy_11
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 743
+        width: 37
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442fa31a0b23856c0800000000000000
+      internalID: -4154514922048654780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everyday_normal_guy_12
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 743
+        width: 87
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84aa77de4f81309a0800000000000000
+      internalID: -6268138816134469048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everyday_normal_guy_13
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 743
+        width: 54
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4fd610512b9495f0800000000000000
+      internalID: -750804670484127922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everyday_normal_guy_14
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 709
+        width: 54
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e02e639254fe2800800000000000000
+      internalID: 589677236730077416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everyday_normal_guy_15
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 743
+        width: 53
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f864f27ce5cddfc70800000000000000
+      internalID: 9006597129437660815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: everyday_normal_guy_16
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 709
+        width: 54
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e759224eb760ac790800000000000000
+      internalID: -7509182299508664962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      everyday_normal_guy_0: 3739035877702947758
+      everyday_normal_guy_1: 6873796295404480033
+      everyday_normal_guy_10: 768611700665720768
+      everyday_normal_guy_11: -4154514922048654780
+      everyday_normal_guy_12: -6268138816134469048
+      everyday_normal_guy_13: -750804670484127922
+      everyday_normal_guy_14: 589677236730077416
+      everyday_normal_guy_15: 9006597129437660815
+      everyday_normal_guy_16: -7509182299508664962
+      everyday_normal_guy_2: -3890769563487352943
+      everyday_normal_guy_3: 1082377001803918027
+      everyday_normal_guy_4: 2389048012534725830
+      everyday_normal_guy_5: -7758888627796045838
+      everyday_normal_guy_6: 5730691098328905411
+      everyday_normal_guy_7: 5754096283641237982
+      everyday_normal_guy_8: 6532628125854304219
+      everyday_normal_guy_9: 1534879031442399122
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
