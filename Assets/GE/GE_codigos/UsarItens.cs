@@ -6,12 +6,24 @@ public class UsarItens : MonoBehaviour
     public GeladeiraController geladeira;
     public EstanteController estante; 
     public JB_Inventory inventario;
+    public GameObject jogador;
+    public GameObject bauDist;
+    public GameObject estanteDist;
+    public GameObject geladeiraDist;
+    public float distanciaMaxima = 10f;
+    float distancia;
+    float distanciaEst;
+    float distanciaGel;
 
     public AudioClip audioConcluido;
     private AudioSource audioSource;
     public BackgroundAudioManager backgroundAudioManager;
 
     private bool overlayAudioParado = false;
+
+    // Fade durations para cada tipo de overlay (ajuste conforme necessário)
+    private const int fadeOverlayNormal = 5;
+    private const int fadeOverlayImportante = 12;
 
     void Awake()
     {
@@ -32,11 +44,14 @@ public class UsarItens : MonoBehaviour
         Debug.Log("Usando item: " + itemName);
 
         bool fezAcao = false;
+        bool pararOverlay = false;
+        int fadeTime = fadeOverlayNormal; // valor padrão
 
         switch (itemName)
         {
             case "CHAVE_0":
-                if (bau != null)
+                distancia = Vector2.Distance(jogador.transform.position, bauDist.transform.position);
+                if (distancia <= distanciaMaxima && bau != null)
                 {
                     bau.DestrancarBau();
                     fezAcao = true;
@@ -46,60 +61,92 @@ public class UsarItens : MonoBehaviour
                         inventario.UpdateUI();
                     }
                 }
+                else
+                {
+                    Debug.Log("Não foi possível utilizar a chave.");
+                }
                 break;
+
             case "BOLA_0":
-                if (bau != null && bau.aberto)
+                distancia = Vector2.Distance(jogador.transform.position, bauDist.transform.position);
+                if (distancia <= distanciaMaxima && bau != null && bau.aberto)
                 {
                     bau.ColocarBola();
                     fezAcao = true;
+                    pararOverlay = true;
+                    fadeTime = fadeOverlayImportante;
                     if (inventario != null)
                     {
                         inventario.RemoveItem(itemSprite);
                         inventario.UpdateUI();
                     }
-                    PararOverlaySePrimeiraVez();
+                }
+                else
+                {
+                    Debug.Log("Não foi possível utilizar a bola.");
                 }
                 break;
+
             case "BONECA_0":
-                if (bau != null && bau.aberto)
+                distancia = Vector2.Distance(jogador.transform.position, bauDist.transform.position);
+                if (distancia <= distanciaMaxima && bau != null && bau.aberto)
                 {
                     bau.ColocarBoneca();
                     fezAcao = true;
+                    pararOverlay = true;
+                    fadeTime = fadeOverlayImportante;
                     if (inventario != null)
                     {
                         inventario.RemoveItem(itemSprite);
                         inventario.UpdateUI();
                     }
-                    PararOverlaySePrimeiraVez();
+                }
+                else
+                {
+                    Debug.Log("Não foi possível utilizar a boneca.");
                 }
                 break;
+
             case "LIVRO_0":
-                if (estante != null && !estante.temLivro)
+                distanciaEst = Vector2.Distance(jogador.transform.position, estanteDist.transform.position);
+                if (distanciaEst <= distanciaMaxima && estante != null && !estante.temLivro)
                 {
                     estante.ColocarLivro();
                     fezAcao = true;
+                    pararOverlay = true;
+                    fadeTime = fadeOverlayNormal;
                     if (inventario != null)
                     {
                         inventario.RemoveItem(itemSprite);
                         inventario.UpdateUI();
                     }
-                    if (backgroundAudioManager != null)
-                        backgroundAudioManager.StopOverlayAudio(5);
+                }
+                else
+                {
+                    Debug.Log("Não foi possível utilizar o livro.");
                 }
                 break;
+
             case "LEITE_0":
-                if (geladeira != null && geladeira.aberta && !geladeira.temLeite)
+                distanciaGel = Vector2.Distance(jogador.transform.position, geladeiraDist.transform.position);
+                if (distanciaGel <= distanciaMaxima && geladeira != null && geladeira.aberta && !geladeira.temLeite)
                 {
                     geladeira.ColocarLeite();
                     fezAcao = true;
+                    pararOverlay = true;
+                    fadeTime = fadeOverlayImportante;
                     if (inventario != null)
                     {
                         inventario.RemoveItem(itemSprite);
                         inventario.UpdateUI();
                     }
-                    PararOverlaySePrimeiraVez();
+                }
+                else
+                {
+                    Debug.Log("Não foi possível utilizar o leite.");
                 }
                 break;
+
             default:
                 Debug.Log("Esse item não faz nada especial.");
                 break;
@@ -109,13 +156,11 @@ public class UsarItens : MonoBehaviour
         {
             audioSource.PlayOneShot(audioConcluido);
         }
-    }
 
-    void PararOverlaySePrimeiraVez()
-    {
-        if (!overlayAudioParado && backgroundAudioManager != null)
+        // Garante que o overlay só será parado UMA VEZ
+        if (fezAcao && pararOverlay && !overlayAudioParado && backgroundAudioManager != null)
         {
-            backgroundAudioManager.StopOverlayAudio(12);
+            backgroundAudioManager.StopOverlayAudio(fadeTime);
             overlayAudioParado = true;
         }
     }
