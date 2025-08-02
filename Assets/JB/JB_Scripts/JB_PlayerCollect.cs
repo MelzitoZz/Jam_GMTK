@@ -60,7 +60,7 @@ public class JB_PlayerCollect : MonoBehaviour
                     if (!overlayAudioParado && backgroundAudioManager != null &&
                         (spriteName == "BONECA_0" || spriteName == "BOLA_0"))
                     {
-                        backgroundAudioManager.StopOverlayAudio(12); // ajuste o tempo conforme necessário
+                        backgroundAudioManager.StopOverlayAudio(9); // ajuste o tempo conforme necessário
                         overlayAudioParado = true;
                     }
                 }
