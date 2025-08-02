@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Bau
+  - Geladeira
+  - Mesa
+  - Estante
+  - Bater
   layers:
   - Default
   - TransparentFX
@@ -47,11 +52,17 @@ TagManager:
   - name: Player
     uniqueID: 2443482099
     locked: 0
+  - name: BancoEmbaixo
+    uniqueID: 2492544165
+    locked: 0
   - name: ObjetoQueb
     uniqueID: 2621324481
     locked: 0
   - name: ObjetoColetavel
     uniqueID: 931142131
+    locked: 0
+  - name: Banco
+    uniqueID: 3450497763
     locked: 0
   m_RenderingLayers:
   - Default

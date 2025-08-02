@@ -1,5 +1,5 @@
 using UnityEngine;
-using TMPro; 
+using TMPro;
 
 public class JB_ColetarMensagem : MonoBehaviour
 {

@@ -1,0 +1,692 @@
+fileFormatVersion: 2
+guid: 01a09e34f821a9941abaea539ed703cc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 448762978116619970
+    second: ESTICANDO E BATENDO ANIMATION_0
+  - first:
+      213: -7889586330396863232
+    second: ESTICANDO E BATENDO ANIMATION_1
+  - first:
+      213: -4019927273915571525
+    second: ESTICANDO E BATENDO ANIMATION_2
+  - first:
+      213: 3783951809422960219
+    second: ESTICANDO E BATENDO ANIMATION_3
+  - first:
+      213: 7783204023060289302
+    second: ESTICANDO E BATENDO ANIMATION_4
+  - first:
+      213: -7502115066534266895
+    second: ESTICANDO E BATENDO ANIMATION_5
+  - first:
+      213: -1800026492523704319
+    second: ESTICANDO E BATENDO ANIMATION_6
+  - first:
+      213: -5143772337892624867
+    second: ESTICANDO E BATENDO ANIMATION_7
+  - first:
+      213: -905938630535778440
+    second: ESTICANDO E BATENDO ANIMATION_8
+  - first:
+      213: 799484200001181047
+    second: ESTICANDO E BATENDO ANIMATION_9
+  - first:
+      213: -2732219696615900049
+    second: ESTICANDO E BATENDO ANIMATION_10
+  - first:
+      213: -5597178985235760556
+    second: ESTICANDO E BATENDO ANIMATION_11
+  - first:
+      213: 1829537438118068158
+    second: ESTICANDO E BATENDO ANIMATION_12
+  - first:
+      213: 2230527992359677507
+    second: ESTICANDO E BATENDO ANIMATION_13
+  - first:
+      213: 4966075244672546054
+    second: ESTICANDO E BATENDO ANIMATION_14
+  - first:
+      213: -9222055196409971195
+    second: ESTICANDO E BATENDO ANIMATION_15
+  - first:
+      213: 9095530564587321768
+    second: ESTICANDO E BATENDO ANIMATION_16
+  - first:
+      213: -569505568362817565
+    second: ESTICANDO E BATENDO ANIMATION_17
+  - first:
+      213: 486372141006199774
+    second: ESTICANDO E BATENDO ANIMATION_18
+  - first:
+      213: -3418521191457419708
+    second: ESTICANDO E BATENDO ANIMATION_19
+  - first:
+      213: -8664780648027984801
+    second: ESTICANDO E BATENDO ANIMATION_20
+  - first:
+      213: 5754168807419873446
+    second: ESTICANDO E BATENDO ANIMATION_21
+  - first:
+      213: -4539845063772589251
+    second: ESTICANDO E BATENDO ANIMATION_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ESTICANDO E BATENDO ANIMATION_0
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 0
+        width: 17
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ceccfa0d835a3600800000000000000
+      internalID: 448762978116619970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESTICANDO E BATENDO ANIMATION_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 0
+        width: 17
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 005dae7880f828290800000000000000
+      internalID: -7889586330396863232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESTICANDO E BATENDO ANIMATION_2
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 0
+        width: 17
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb2ab5f51795638c0800000000000000
+      internalID: -4019927273915571525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESTICANDO E BATENDO ANIMATION_3
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 0
+        width: 17
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b562ad75f1c438430800000000000000
+      internalID: 3783951809422960219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESTICANDO E BATENDO ANIMATION_4
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 0
+        width: 17
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61756e062de730c60800000000000000
+      internalID: 7783204023060289302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESTICANDO E BATENDO ANIMATION_5
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 0
+        width: 17
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f77e1b481223e790800000000000000
+      internalID: -7502115066534266895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESTICANDO E BATENDO ANIMATION_6
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 0
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10015d621750507e0800000000000000
+      internalID: -1800026492523704319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESTICANDO E BATENDO ANIMATION_7
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 0
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d16fd62cf46ad98b0800000000000000
+      internalID: -5143772337892624867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESTICANDO E BATENDO ANIMATION_8
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 0
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f6c9a8d957d63f0800000000000000
+      internalID: -905938630535778440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESTICANDO E BATENDO ANIMATION_9
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 0
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7759b90e4a6581b00800000000000000
+      internalID: 799484200001181047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESTICANDO E BATENDO ANIMATION_10
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 0
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c32ee69a4351ad0800000000000000
+      internalID: -2732219696615900049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESTICANDO E BATENDO ANIMATION_11
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 0
+        width: 23
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45abdb83e53d252b0800000000000000
+      internalID: -5597178985235760556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESTICANDO E BATENDO ANIMATION_12
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 0
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf3e4e4b92d36910800000000000000
+      internalID: 1829537438118068158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESTICANDO E BATENDO ANIMATION_13
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 0
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34ee926246d64fe10800000000000000
+      internalID: 2230527992359677507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESTICANDO E BATENDO ANIMATION_14
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 0
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6057196af1b0be440800000000000000
+      internalID: 4966075244672546054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESTICANDO E BATENDO ANIMATION_15
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 0
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e30fec8ada40080800000000000000
+      internalID: -9222055196409971195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESTICANDO E BATENDO ANIMATION_16
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 0
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a97fe9bbd0d93e70800000000000000
+      internalID: 9095530564587321768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESTICANDO E BATENDO ANIMATION_17
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 0
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e79024f3b5b818f0800000000000000
+      internalID: -569505568362817565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESTICANDO E BATENDO ANIMATION_18
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 0
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb1255a2e0ffb600800000000000000
+      internalID: 486372141006199774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESTICANDO E BATENDO ANIMATION_19
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 0
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44e0906a619fe80d0800000000000000
+      internalID: -3418521191457419708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESTICANDO E BATENDO ANIMATION_20
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 0
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5cec9998e380c780800000000000000
+      internalID: -8664780648027984801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESTICANDO E BATENDO ANIMATION_21
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 0
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a805ef1b0aeadf40800000000000000
+      internalID: 5754168807419873446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ESTICANDO E BATENDO ANIMATION_22
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 0
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d333686b7fa3ff0c0800000000000000
+      internalID: -4539845063772589251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
