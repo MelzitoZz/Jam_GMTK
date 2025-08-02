@@ -11,9 +11,9 @@ public class JB_AttackPlayer : MonoBehaviour
     public float attackDelay = 0.3f;
     public float attackCooldown = 0.5f;
 
-    public AudioClip attackSwingSound;    // Som ao atacar (bater no ar)
-    public AudioClip hitObjectSound;      // Som ao acertar objeto com tag específica
-    public string hittableTag = "AlvoBatível"; // Defina a tag do objeto que pode receber hit
+    public AudioClip attackSwingSound;
+    public AudioClip hitObjectSound;
+    public string hittableTag = "AlvoBatível";
 
     private AudioSource audioSource;
     private bool canAttack = true;
@@ -31,7 +31,6 @@ public class JB_AttackPlayer : MonoBehaviour
             if (animator != null)
                 animator.SetTrigger("Attack");
 
-            // Toca o som de ataque (swing) imediatamente
             if (attackSwingSound != null && audioSource != null)
                 audioSource.PlayOneShot(attackSwingSound);
 
@@ -47,7 +46,6 @@ public class JB_AttackPlayer : MonoBehaviour
         Collider2D[] hitObjects = Physics2D.OverlapCircleAll(attackPoint.position, attackRange, destruivelLayer);
         foreach (Collider2D obj in hitObjects)
         {
-            // Só aceita objetos com a tag definida
             if (obj.CompareTag(hittableTag))
             {
                 JB_ObjetoDestruivel destruivel = obj.GetComponent<JB_ObjetoDestruivel>();
@@ -55,7 +53,6 @@ public class JB_AttackPlayer : MonoBehaviour
                 {
                     destruivel.TakeHit(damage);
 
-                    // Só toca o som de hit na primeira colisão encontrada
                     if (!hitSomething && hitObjectSound != null && audioSource != null)
                     {
                         audioSource.PlayOneShot(hitObjectSound);

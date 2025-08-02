@@ -2,11 +2,11 @@ using UnityEngine;
 
 public class BauController : MonoBehaviour
 {
-    public Sprite fechadoSprite;      // Baú trancado
-    public Sprite abertoSprite;       // Baú aberto
-    public Sprite fechandoSprite;     // Opcional, pode ser igual ao fechado
-    public GameObject bolaNoBau;      // Referência bola dentro do baú
-    public GameObject bonecaNoBau;    // Referência boneca dentro do baú
+    public Sprite fechadoSprite;
+    public Sprite abertoSprite;
+    public Sprite fechandoSprite;
+    public GameObject bolaNoBau;
+    public GameObject bonecaNoBau;
 
     private SpriteRenderer sr;
     public bool aberto = false;
@@ -113,7 +113,6 @@ public class BauController : MonoBehaviour
             aberto = false;
             sr.sprite = fechandoSprite != null ? fechandoSprite : fechadoSprite;
 
-            // Esconde os itens dentro do baú (opcional)
             if (bolaNoBau != null)
                 bolaNoBau.SetActive(false);
             if (bonecaNoBau != null)

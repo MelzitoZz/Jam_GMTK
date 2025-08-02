@@ -20,7 +20,6 @@ public class BackgroundAudioManager : MonoBehaviour
 
     void Awake()
     {
-        // Música de fundo
         bgmSource = gameObject.AddComponent<AudioSource>();
         bgmSource.clip = bgmClip;
         bgmSource.loop = true;
@@ -28,19 +27,16 @@ public class BackgroundAudioManager : MonoBehaviour
         bgmSource.playOnAwake = true;
         bgmSource.Play();
 
-        // Overlay: apenas um AudioSource
         overlaySource = gameObject.AddComponent<AudioSource>();
         overlaySource.loop = false;
         overlaySource.volume = overlayVolume;
         overlaySource.playOnAwake = false;
 
-        // Inicia tocando o primeiro válido
         PlayNextOverlay();
     }
 
     void Update()
     {
-        // Quando o overlay termina, toca o próximo
         if (!overlaySource.isPlaying)
         {
             PlayNextOverlay();
@@ -54,10 +50,8 @@ public class BackgroundAudioManager : MonoBehaviour
         {
             currentOverlayIndex = (currentOverlayIndex + 1) % overlayClips.Length;
             tries++;
-            // pula se estiver desativado ou nulo
         } while ((overlayDisabled[currentOverlayIndex] || overlayClips[currentOverlayIndex] == null) && tries <= overlayClips.Length);
 
-        // Se encontrou um válido
         if (!overlayDisabled[currentOverlayIndex] && overlayClips[currentOverlayIndex] != null)
         {
             overlaySource.clip = overlayClips[currentOverlayIndex];
@@ -65,18 +59,15 @@ public class BackgroundAudioManager : MonoBehaviour
         }
         else
         {
-            // Não há mais áudios para tocar
             overlaySource.Stop();
         }
     }
 
-    // Chame esta função para parar (pular) um overlay específico (ex: ao completar uma task)
     public void StopOverlayAudio(int index)
     {
         if (index >= 0 && index < overlayDisabled.Length)
         {
             overlayDisabled[index] = true;
-            // Se está tocando o que foi desativado, já troca para o próximo
             if (currentOverlayIndex == index && overlaySource.isPlaying)
             {
                 overlaySource.Stop();

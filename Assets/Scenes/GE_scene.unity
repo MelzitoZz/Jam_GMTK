@@ -6136,8 +6136,8 @@ Transform:
   m_GameObject: {fileID: 1520762944}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.97, y: 6.65, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 1}
+  m_LocalPosition: {x: 6.8745, y: 6.6606, z: 0}
+  m_LocalScale: {x: 3.2778, y: 3.0140998, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1770798171}
@@ -6205,11 +6205,11 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.4876108, y: 0.75}
-      - {x: -0.49842277, y: -0.95309377}
-      - {x: 0.050255224, y: -0.95717865}
-      - {x: 0.51958114, y: -0.9418137}
-      - {x: 0.5035953, y: 0.7739766}
+    - - {x: -0.3775402, y: 0.8133707}
+      - {x: -0.38187757, y: -0.8404346}
+      - {x: 0.050255224, y: -0.85156065}
+      - {x: 0.40951088, y: -0.85027814}
+      - {x: 0.4194236, y: 0.7951001}
   m_UseDelaunayMesh: 0
 --- !u!1 &1537068747
 GameObject:
@@ -9827,6 +9827,10 @@ PrefabInstance:
     - target: {fileID: 7728879383495387959, guid: fb0a4da341892744ea38817b14439303, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8584677884940888591, guid: fb0a4da341892744ea38817b14439303, type: 3}
+      propertyPath: MinDistance
+      value: 1.1211151
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

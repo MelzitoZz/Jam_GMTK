@@ -3,8 +3,11 @@ using UnityEngine.UI;
 
 public class JB_Inventory : MonoBehaviour
 {
-    public Image[] itemImages; // Arraste aqui as Images dos itens
+    public Image[] itemImages;
     private Sprite[] itemSprites;
+
+    public BackgroundAudioManager backgroundAudioManager;
+    private bool overlayAudioParado = false;
 
     void Start()
     {
@@ -20,6 +23,10 @@ public class JB_Inventory : MonoBehaviour
             {
                 itemSprites[i] = itemSprite;
                 UpdateUI();
+
+                // Verifica se pegou boneca e bola
+                PararOverlaySePegouBonecaEBola();
+
                 return true;
             }
         }
@@ -35,7 +42,6 @@ public class JB_Inventory : MonoBehaviour
         }
     }
 
-    // Corrigido para acessar itemSprites
     public Sprite GetItemAt(int index)
     {
         if (index >= 0 && index < itemSprites.Length)
@@ -44,12 +50,10 @@ public class JB_Inventory : MonoBehaviour
             return null;
     }
 
-    // Método para usar o item
     public bool UseItem(Sprite itemSprite)
     {
         if (itemSprite == null) return false;
 
-        // Busca o controlador UsarItens na cena
         UsarItens usarItensController = FindObjectOfType<UsarItens>();
         if (usarItensController != null)
         {
@@ -61,7 +65,6 @@ public class JB_Inventory : MonoBehaviour
         return false;
     }
 
-    // Remove o item do inventário apos uso
     public void RemoveItem(Sprite itemSprite)
     {
         for (int i = 0; i < itemSprites.Length; i++)
@@ -71,6 +74,28 @@ public class JB_Inventory : MonoBehaviour
                 itemSprites[i] = null;
                 break;
             }
+        }
+    }
+    private void PararOverlaySePegouBonecaEBola()
+    {
+        if (overlayAudioParado || backgroundAudioManager == null)
+            return;
+
+        bool temBoneca = false, temBola = false;
+
+        foreach (Sprite s in itemSprites)
+        {
+            if (s != null)
+            {
+                if (s.name == "BONECA_0") temBoneca = true;
+                if (s.name == "BOLA_0") temBola = true;
+            }
+        }
+
+        if (temBoneca && temBola)
+        {
+            backgroundAudioManager.StopOverlayAudio(9);
+            overlayAudioParado = true;
         }
     }
 }

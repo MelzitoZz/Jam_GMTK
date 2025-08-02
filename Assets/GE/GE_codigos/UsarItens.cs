@@ -7,8 +7,11 @@ public class UsarItens : MonoBehaviour
     public EstanteController estante; 
     public JB_Inventory inventario;
 
-    public AudioClip audioConcluido; // Arraste seu som de "concluído" aqui
+    public AudioClip audioConcluido;
     private AudioSource audioSource;
+    public BackgroundAudioManager backgroundAudioManager;
+
+    private bool overlayAudioParado = false;
 
     void Awake()
     {
@@ -54,6 +57,7 @@ public class UsarItens : MonoBehaviour
                         inventario.RemoveItem(itemSprite);
                         inventario.UpdateUI();
                     }
+                    PararOverlaySePrimeiraVez();
                 }
                 break;
             case "BONECA_0":
@@ -66,6 +70,7 @@ public class UsarItens : MonoBehaviour
                         inventario.RemoveItem(itemSprite);
                         inventario.UpdateUI();
                     }
+                    PararOverlaySePrimeiraVez();
                 }
                 break;
             case "LIVRO_0":
@@ -78,6 +83,8 @@ public class UsarItens : MonoBehaviour
                         inventario.RemoveItem(itemSprite);
                         inventario.UpdateUI();
                     }
+                    if (backgroundAudioManager != null)
+                        backgroundAudioManager.StopOverlayAudio(5);
                 }
                 break;
             case "LEITE_0":
@@ -90,6 +97,7 @@ public class UsarItens : MonoBehaviour
                         inventario.RemoveItem(itemSprite);
                         inventario.UpdateUI();
                     }
+                    PararOverlaySePrimeiraVez();
                 }
                 break;
             default:
@@ -97,10 +105,18 @@ public class UsarItens : MonoBehaviour
                 break;
         }
 
-        // Toca o áudio de concluído se fez alguma ação especial
         if (fezAcao && audioConcluido != null && audioSource != null)
         {
             audioSource.PlayOneShot(audioConcluido);
+        }
+    }
+
+    void PararOverlaySePrimeiraVez()
+    {
+        if (!overlayAudioParado && backgroundAudioManager != null)
+        {
+            backgroundAudioManager.StopOverlayAudio(12);
+            overlayAudioParado = true;
         }
     }
 }
