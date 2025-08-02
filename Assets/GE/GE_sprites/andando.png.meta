@@ -1,43 +1,43 @@
 fileFormatVersion: 2
-guid: d23880c864f6f524eaa68cb2287093fc
+guid: ce05d0c9480e7234c88f5ae9ad952db0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1038852658978283704
-    second: andandopbaixo..-export_0
+      213: -7048580246633559254
+    second: andando_0
   - first:
-      213: 5611504301835681830
-    second: andandopbaixo..-export_1
+      213: -4945666201470242389
+    second: andando_1
   - first:
-      213: 1017140988465208454
-    second: andandopbaixo..-export_2
+      213: -8328533348283747952
+    second: andando_2
   - first:
-      213: -4561179903820990871
-    second: andandopbaixo..-export_3
+      213: 4824069325521193168
+    second: andando_3
   - first:
-      213: 7454429827481858820
-    second: andandopbaixo..-export_4
+      213: 4030895896761423162
+    second: andando_4
   - first:
-      213: 2538873791240387613
-    second: andandopbaixo..-export_5
+      213: 8090977494364900875
+    second: andando_5
   - first:
-      213: -3714399885103799211
-    second: andandopbaixo..-export_6
+      213: -6540873228062738317
+    second: andando_6
   - first:
-      213: -2950615188939674561
-    second: andandopbaixo..-export_7
+      213: -2558997125598514816
+    second: andando_7
   - first:
-      213: 2469862336745419966
-    second: andandopbaixo..-export_8
+      213: -8125790540630559224
+    second: andando_8
   - first:
-      213: 3699055581998095554
-    second: andandopbaixo..-export_9
+      213: -3767169340680665428
+    second: andando_9
   - first:
-      213: -3910355521773329289
-    second: andandopbaixo..-export_10
+      213: -5042476661592553193
+    second: andando_10
   - first:
-      213: -2624642409702766319
-    second: andandopbaixo..-export_11
+      213: -2398733222512491808
+    second: andando_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -70,7 +70,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -133,13 +133,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: andandopbaixo..-export_0
+      name: andando_0
       rect:
         serializedVersion: 2
-        x: 25
+        x: 26
         y: 0
-        width: 14
-        height: 48
+        width: 15
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,20 +148,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 84f11afb2014591f0800000000000000
-      internalID: -1038852658978283704
+      spriteID: a2b42945c996e2e90800000000000000
+      internalID: -7048580246633559254
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: andandopbaixo..-export_1
+      name: andando_1
       rect:
         serializedVersion: 2
-        x: 89
+        x: 90
         y: 0
-        width: 14
-        height: 48
+        width: 15
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,20 +170,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6200e767e6110ed40800000000000000
-      internalID: 5611504301835681830
+      spriteID: ba1f5b30bc67d5bb0800000000000000
+      internalID: -4945666201470242389
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: andandopbaixo..-export_2
+      name: andando_2
       rect:
         serializedVersion: 2
-        x: 153
+        x: 151
         y: 0
-        width: 14
-        height: 48
+        width: 18
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,20 +192,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 68c55f7075c9d1e00800000000000000
-      internalID: 1017140988465208454
+      spriteID: 0917d83db0b1b6c80800000000000000
+      internalID: -8328533348283747952
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: andandopbaixo..-export_3
+      name: andando_3
       rect:
         serializedVersion: 2
-        x: 217
+        x: 215
         y: 0
-        width: 14
-        height: 48
+        width: 18
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,20 +214,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 966791c2b0f63b0c0800000000000000
-      internalID: -4561179903820990871
+      spriteID: 0d88c871e7982f240800000000000000
+      internalID: 4824069325521193168
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: andandopbaixo..-export_4
+      name: andando_4
       rect:
         serializedVersion: 2
         x: 281
         y: 0
-        width: 14
-        height: 48
+        width: 16
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,20 +236,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 403f12ece64737760800000000000000
-      internalID: 7454429827481858820
+      spriteID: a355b05267e90f730800000000000000
+      internalID: 4030895896761423162
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: andandopbaixo..-export_5
+      name: andando_5
       rect:
         serializedVersion: 2
         x: 345
         y: 0
-        width: 14
-        height: 48
+        width: 16
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,20 +258,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d1cbe68f244eb3320800000000000000
-      internalID: 2538873791240387613
+      spriteID: b0ecc4dc92de84070800000000000000
+      internalID: 8090977494364900875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: andandopbaixo..-export_6
+      name: andando_6
       rect:
         serializedVersion: 2
         x: 409
         y: 0
-        width: 14
-        height: 48
+        width: 16
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,20 +280,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 554e2a6fbfcc37cc0800000000000000
-      internalID: -3714399885103799211
+      spriteID: 378357044762a35a0800000000000000
+      internalID: -6540873228062738317
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: andandopbaixo..-export_7
+      name: andando_7
       rect:
         serializedVersion: 2
         x: 473
         y: 0
-        width: 14
-        height: 48
+        width: 16
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,20 +302,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f3ce0626e1f4d07d0800000000000000
-      internalID: -2950615188939674561
+      spriteID: 08174732cad9c7cd0800000000000000
+      internalID: -2558997125598514816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: andandopbaixo..-export_8
+      name: andando_8
       rect:
         serializedVersion: 2
-        x: 537
+        x: 536
         y: 0
-        width: 14
-        height: 48
+        width: 17
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -324,20 +324,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: eb4b3d995b6b64220800000000000000
-      internalID: 2469862336745419966
+      spriteID: 8067c7a3e846b3f80800000000000000
+      internalID: -8125790540630559224
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: andandopbaixo..-export_9
+      name: andando_9
       rect:
         serializedVersion: 2
-        x: 601
+        x: 600
         y: 0
-        width: 14
-        height: 48
+        width: 17
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -346,20 +346,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2cc1c61147fa55330800000000000000
-      internalID: 3699055581998095554
+      spriteID: ca68cf7a17358bbc0800000000000000
+      internalID: -3767169340680665428
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: andandopbaixo..-export_10
+      name: andando_10
       rect:
         serializedVersion: 2
-        x: 665
+        x: 663
         y: 0
-        width: 14
-        height: 48
+        width: 18
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,20 +368,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 774a633fe50abb9c0800000000000000
-      internalID: -3910355521773329289
+      spriteID: 71904954136850ab0800000000000000
+      internalID: -5042476661592553193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: andandopbaixo..-export_11
+      name: andando_11
       rect:
         serializedVersion: 2
-        x: 729
+        x: 727
         y: 0
-        width: 14
-        height: 48
+        width: 18
+        height: 47
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -390,8 +390,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 119cd3362a5639bd0800000000000000
-      internalID: -2624642409702766319
+      spriteID: 0e20739d7dcf5bed0800000000000000
+      internalID: -2398733222512491808
       vertices: []
       indices: 
       edges: []
@@ -409,19 +409,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      andandopbaixo..-export_0: -1038852658978283704
-      andandopbaixo..-export_1: 5611504301835681830
-      andandopbaixo..-export_10: -3910355521773329289
-      andandopbaixo..-export_11: -2624642409702766319
-      andandopbaixo..-export_2: 1017140988465208454
-      andandopbaixo..-export_3: -4561179903820990871
-      andandopbaixo..-export_4: 7454429827481858820
-      andandopbaixo..-export_5: 2538873791240387613
-      andandopbaixo..-export_6: -3714399885103799211
-      andandopbaixo..-export_7: -2950615188939674561
-      andandopbaixo..-export_8: 2469862336745419966
-      andandopbaixo..-export_9: 3699055581998095554
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

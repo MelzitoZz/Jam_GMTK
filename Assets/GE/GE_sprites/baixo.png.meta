@@ -1,43 +1,43 @@
 fileFormatVersion: 2
-guid: 3ce0222ed1457a2449ab08cc95973fda
+guid: b1e8b8c773aae2e4daab257fe5582ff1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6404208597759570660
-    second: andandopcima_0
+      213: -3998717811462945979
+    second: baixo_0
   - first:
-      213: 2498382728203354392
-    second: andandopcima_1
+      213: -4518373971391919217
+    second: baixo_1
   - first:
-      213: 5092569225744040081
-    second: andandopcima_2
+      213: -795909051405400595
+    second: baixo_2
   - first:
-      213: 208845126606432548
-    second: andandopcima_3
+      213: -3951401279016278854
+    second: baixo_3
   - first:
-      213: -4641766971362963878
-    second: andandopcima_4
+      213: 5100493930504095203
+    second: baixo_4
   - first:
-      213: 3095488132172237341
-    second: andandopcima_5
+      213: -6433289657673228099
+    second: baixo_5
   - first:
-      213: 1961712088904286115
-    second: andandopcima_6
+      213: 8039780492342393689
+    second: baixo_6
   - first:
-      213: 5385756460430986842
-    second: andandopcima_7
+      213: 5707272344632676233
+    second: baixo_7
   - first:
-      213: -3066560574006151487
-    second: andandopcima_8
+      213: 6725237058894163129
+    second: baixo_8
   - first:
-      213: 7300611588022778381
-    second: andandopcima_9
+      213: -6902795793801310155
+    second: baixo_9
   - first:
-      213: 8955665658036437726
-    second: andandopcima_10
+      213: 8866552436536031638
+    second: baixo_10
   - first:
-      213: 2179584433614892915
-    second: andandopcima_11
+      213: 1849852525322209325
+    second: baixo_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -70,7 +70,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -133,13 +133,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: andandopcima_0
+      name: baixo_0
       rect:
         serializedVersion: 2
-        x: 25
+        x: 26
         y: 0
-        width: 14
-        height: 48
+        width: 12
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,20 +148,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c1dc907163eaf17a0800000000000000
-      internalID: -6404208597759570660
+      spriteID: 54349ba2653b188c0800000000000000
+      internalID: -3998717811462945979
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: andandopcima_1
+      name: baixo_1
       rect:
         serializedVersion: 2
-        x: 89
+        x: 90
         y: 0
-        width: 14
-        height: 48
+        width: 12
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,20 +170,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8114883bad90ca220800000000000000
-      internalID: 2498382728203354392
+      spriteID: f8b40d8ffc28b41c0800000000000000
+      internalID: -4518373971391919217
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: andandopcima_2
+      name: baixo_2
       rect:
         serializedVersion: 2
-        x: 153
+        x: 154
         y: 0
-        width: 14
-        height: 48
+        width: 12
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,20 +192,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1904f8eaab07ca640800000000000000
-      internalID: 5092569225744040081
+      spriteID: de586754fec54f4f0800000000000000
+      internalID: -795909051405400595
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: andandopcima_3
+      name: baixo_3
       rect:
         serializedVersion: 2
-        x: 217
+        x: 218
         y: 0
-        width: 14
-        height: 48
+        width: 12
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,20 +214,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 429a2704987f5e200800000000000000
-      internalID: 208845126606432548
+      spriteID: ab4e53fd87dc929c0800000000000000
+      internalID: -3951401279016278854
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: andandopcima_4
+      name: baixo_4
       rect:
         serializedVersion: 2
-        x: 281
+        x: 282
         y: 0
-        width: 14
-        height: 48
+        width: 12
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,20 +236,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a5e05cd5881259fb0800000000000000
-      internalID: -4641766971362963878
+      spriteID: 3e58bbac43898c640800000000000000
+      internalID: 5100493930504095203
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: andandopcima_5
+      name: baixo_5
       rect:
         serializedVersion: 2
-        x: 345
+        x: 346
         y: 0
-        width: 14
-        height: 48
+        width: 12
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,20 +258,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d1a409c3e0265fa20800000000000000
-      internalID: 3095488132172237341
+      spriteID: db06131342d58b6a0800000000000000
+      internalID: -6433289657673228099
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: andandopcima_6
+      name: baixo_6
       rect:
         serializedVersion: 2
-        x: 409
+        x: 410
         y: 0
-        width: 14
-        height: 48
+        width: 12
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,20 +280,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3afbab250c6693b10800000000000000
-      internalID: 1961712088904286115
+      spriteID: 95bfe2ed2c9039f60800000000000000
+      internalID: 8039780492342393689
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: andandopcima_7
+      name: baixo_7
       rect:
         serializedVersion: 2
-        x: 473
+        x: 474
         y: 0
-        width: 14
-        height: 48
+        width: 12
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,20 +302,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a5e01ce37fc0eba40800000000000000
-      internalID: 5385756460430986842
+      spriteID: 98fcd3285fd443f40800000000000000
+      internalID: 5707272344632676233
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: andandopcima_8
+      name: baixo_8
       rect:
         serializedVersion: 2
-        x: 537
+        x: 538
         y: 0
-        width: 14
-        height: 48
+        width: 12
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -324,20 +324,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1c63520c7636175d0800000000000000
-      internalID: -3066560574006151487
+      spriteID: 9bceda52977d45d50800000000000000
+      internalID: 6725237058894163129
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: andandopcima_9
+      name: baixo_9
       rect:
         serializedVersion: 2
-        x: 601
+        x: 602
         y: 0
-        width: 14
-        height: 48
+        width: 12
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -346,20 +346,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d0ab23b1f8bf05560800000000000000
-      internalID: 7300611588022778381
+      spriteID: 53099615cc75430a0800000000000000
+      internalID: -6902795793801310155
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: andandopcima_10
+      name: baixo_10
       rect:
         serializedVersion: 2
-        x: 665
+        x: 666
         y: 0
-        width: 14
-        height: 48
+        width: 12
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,20 +368,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ed24d62877ae84c70800000000000000
-      internalID: 8955665658036437726
+      spriteID: 699ba1ac6725c0b70800000000000000
+      internalID: 8866552436536031638
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: andandopcima_11
+      name: baixo_11
       rect:
         serializedVersion: 2
-        x: 729
+        x: 730
         y: 0
-        width: 14
-        height: 48
+        width: 12
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -390,8 +390,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 37f26939e707f3e10800000000000000
-      internalID: 2179584433614892915
+      spriteID: d2880b2221ffba910800000000000000
+      internalID: 1849852525322209325
       vertices: []
       indices: 
       edges: []
@@ -409,19 +409,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      andandopcima_0: -6404208597759570660
-      andandopcima_1: 2498382728203354392
-      andandopcima_10: 8955665658036437726
-      andandopcima_11: 2179584433614892915
-      andandopcima_2: 5092569225744040081
-      andandopcima_3: 208845126606432548
-      andandopcima_4: -4641766971362963878
-      andandopcima_5: 3095488132172237341
-      andandopcima_6: 1961712088904286115
-      andandopcima_7: 5385756460430986842
-      andandopcima_8: -3066560574006151487
-      andandopcima_9: 7300611588022778381
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

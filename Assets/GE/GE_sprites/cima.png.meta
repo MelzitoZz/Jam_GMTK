@@ -1,43 +1,43 @@
 fileFormatVersion: 2
-guid: 1b2ccbbad6a7a5646bdfa9b069ff0a41
+guid: ec6051006e3d0274b9751f9d4909e85b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3192479357669607735
-    second: ANIMACAO_ANDANDO_0
+      213: -7403221221816932699
+    second: cima_0
   - first:
-      213: -6249241678344229934
-    second: ANIMACAO_ANDANDO_1
+      213: 3497675714909964561
+    second: cima_1
   - first:
-      213: 6583619481518876566
-    second: ANIMACAO_ANDANDO_2
+      213: -4629632589376801067
+    second: cima_2
   - first:
-      213: -1476576958980002954
-    second: ANIMACAO_ANDANDO_3
+      213: 9019462860448222432
+    second: cima_3
   - first:
-      213: 2250962737378194464
-    second: ANIMACAO_ANDANDO_4
+      213: -6543629709869267842
+    second: cima_4
   - first:
-      213: 2769098251642027927
-    second: ANIMACAO_ANDANDO_5
+      213: -8922125634337452404
+    second: cima_5
   - first:
-      213: 6570714333708765205
-    second: ANIMACAO_ANDANDO_6
+      213: -5915664134205590639
+    second: cima_6
   - first:
-      213: 6922733641968459749
-    second: ANIMACAO_ANDANDO_7
+      213: -7034552627736155330
+    second: cima_7
   - first:
-      213: 8706052576810975611
-    second: ANIMACAO_ANDANDO_8
+      213: -4794817890416621228
+    second: cima_8
   - first:
-      213: 6715930521991795945
-    second: ANIMACAO_ANDANDO_9
+      213: -5973068281944910810
+    second: cima_9
   - first:
-      213: 3979189295086169275
-    second: ANIMACAO_ANDANDO_10
+      213: -8154958934893004149
+    second: cima_10
   - first:
-      213: 1875074591730343720
-    second: ANIMACAO_ANDANDO_11
+      213: 6146731908762009089
+    second: cima_11
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -70,7 +70,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -133,13 +133,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: ANIMACAO_ANDANDO_0
+      name: cima_0
       rect:
         serializedVersion: 2
-        x: 25
+        x: 26
         y: 0
-        width: 17
-        height: 47
+        width: 12
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,20 +148,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9c6f55d40f802b3d0800000000000000
-      internalID: -3192479357669607735
+      spriteID: 5a6e7ffc589724990800000000000000
+      internalID: -7403221221816932699
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_ANDANDO_1
+      name: cima_1
       rect:
         serializedVersion: 2
-        x: 89
+        x: 90
         y: 0
-        width: 17
-        height: 47
+        width: 12
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,20 +170,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2dbe9beadcb3649a0800000000000000
-      internalID: -6249241678344229934
+      spriteID: 11908bef78d3a8030800000000000000
+      internalID: 3497675714909964561
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_ANDANDO_2
+      name: cima_2
       rect:
         serializedVersion: 2
-        x: 150
+        x: 154
         y: 0
-        width: 20
-        height: 49
+        width: 12
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,20 +192,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 69726447907bd5b50800000000000000
-      internalID: 6583619481518876566
+      spriteID: 5d6bf9550bd30cfb0800000000000000
+      internalID: -4629632589376801067
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_ANDANDO_3
+      name: cima_3
       rect:
         serializedVersion: 2
-        x: 214
+        x: 218
         y: 0
-        width: 20
-        height: 49
+        width: 12
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,20 +214,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 67b687c3415228be0800000000000000
-      internalID: -1476576958980002954
+      spriteID: 0ec48d53fa19b2d70800000000000000
+      internalID: 9019462860448222432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_ANDANDO_4
+      name: cima_4
       rect:
         serializedVersion: 2
-        x: 280
+        x: 282
         y: 0
-        width: 18
-        height: 47
+        width: 12
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,20 +236,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 024711cfea60d3f10800000000000000
-      internalID: 2250962737378194464
+      spriteID: e74cc81d27b5035a0800000000000000
+      internalID: -6543629709869267842
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_ANDANDO_5
+      name: cima_5
       rect:
         serializedVersion: 2
-        x: 344
+        x: 346
         y: 0
-        width: 18
-        height: 47
+        width: 12
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,20 +258,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 79f37454030dd6620800000000000000
-      internalID: 2769098251642027927
+      spriteID: c8ec8ebc10e3e2480800000000000000
+      internalID: -8922125634337452404
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_ANDANDO_6
+      name: cima_6
       rect:
         serializedVersion: 2
-        x: 408
+        x: 410
         y: 0
-        width: 18
-        height: 49
+        width: 12
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,20 +280,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 51847459fdddf2b50800000000000000
-      internalID: 6570714333708765205
+      spriteID: 193382effc657eda0800000000000000
+      internalID: -5915664134205590639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_ANDANDO_7
+      name: cima_7
       rect:
         serializedVersion: 2
-        x: 472
+        x: 474
         y: 0
-        width: 18
-        height: 49
+        width: 12
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,20 +302,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5ef1d24b19d721060800000000000000
-      internalID: 6922733641968459749
+      spriteID: e3beefdd7af306e90800000000000000
+      internalID: -7034552627736155330
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_ANDANDO_8
+      name: cima_8
       rect:
         serializedVersion: 2
-        x: 535
+        x: 538
         y: 0
-        width: 19
-        height: 47
+        width: 12
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -324,20 +324,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b7141b421bc12d870800000000000000
-      internalID: 8706052576810975611
+      spriteID: 459870f5882657db0800000000000000
+      internalID: -4794817890416621228
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_ANDANDO_9
+      name: cima_9
       rect:
         serializedVersion: 2
-        x: 599
+        x: 602
         y: 0
-        width: 19
-        height: 47
+        width: 12
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -346,20 +346,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9e4568b2a37c33d50800000000000000
-      internalID: 6715930521991795945
+      spriteID: 62455835b066b1da0800000000000000
+      internalID: -5973068281944910810
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_ANDANDO_10
+      name: cima_10
       rect:
         serializedVersion: 2
-        x: 662
+        x: 666
         y: 0
-        width: 20
-        height: 49
+        width: 12
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,20 +368,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bbce5abc49be83730800000000000000
-      internalID: 3979189295086169275
+      spriteID: b8afdc73e04c3de80800000000000000
+      internalID: -8154958934893004149
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: ANIMACAO_ANDANDO_11
+      name: cima_11
       rect:
         serializedVersion: 2
-        x: 726
+        x: 730
         y: 0
-        width: 20
-        height: 49
+        width: 12
+        height: 46
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -390,8 +390,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 82f9277186a950a10800000000000000
-      internalID: 1875074591730343720
+      spriteID: 10e715faa149d4550800000000000000
+      internalID: 6146731908762009089
       vertices: []
       indices: 
       edges: []
@@ -409,19 +409,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      ANIMACAO_ANDANDO_0: -3192479357669607735
-      ANIMACAO_ANDANDO_1: -6249241678344229934
-      ANIMACAO_ANDANDO_10: 3979189295086169275
-      ANIMACAO_ANDANDO_11: 1875074591730343720
-      ANIMACAO_ANDANDO_2: 6583619481518876566
-      ANIMACAO_ANDANDO_3: -1476576958980002954
-      ANIMACAO_ANDANDO_4: 2250962737378194464
-      ANIMACAO_ANDANDO_5: 2769098251642027927
-      ANIMACAO_ANDANDO_6: 6570714333708765205
-      ANIMACAO_ANDANDO_7: 6922733641968459749
-      ANIMACAO_ANDANDO_8: 8706052576810975611
-      ANIMACAO_ANDANDO_9: 6715930521991795945
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
