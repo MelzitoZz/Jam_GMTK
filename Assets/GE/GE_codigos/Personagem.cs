@@ -9,11 +9,14 @@ public class Personagem : MonoBehaviour
     private Animator animator;
     private SpriteRenderer spriteRenderer;
 
+    private Vector3 originalScale;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteRenderer = GetComponent<SpriteRenderer>();
+        originalScale = transform.localScale;
     }
 
     void Update()
@@ -26,9 +29,15 @@ public class Personagem : MonoBehaviour
         animator.SetFloat("Speed", movement.sqrMagnitude);
 
         if (movement.x > 0)
+        {
+            transform.localScale = new Vector3(Mathf.Abs(originalScale.x), originalScale.y, originalScale.z);
             spriteRenderer.flipX = false;
+        }
         else if (movement.x < 0)
-            spriteRenderer.flipX = true;
+        {
+            transform.localScale = new Vector3(-Mathf.Abs(originalScale.x), originalScale.y, originalScale.z);
+            spriteRenderer.flipX = false;
+        }
     }
 
     void FixedUpdate()
