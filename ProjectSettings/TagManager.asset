@@ -53,8 +53,8 @@ TagManager:
   - name: Piso
     uniqueID: 4182958879
     locked: 0
-  - name: Player
-    uniqueID: 2443482099
+  - name: CAMA
+    uniqueID: 4109161193
     locked: 0
   - name: BancoEmbaixo
     uniqueID: 2492544165
@@ -67,6 +67,9 @@ TagManager:
     locked: 0
   - name: Banco
     uniqueID: 3450497763
+    locked: 0
+  - name: Player
+    uniqueID: 2443482099
     locked: 0
   m_RenderingLayers:
   - Default
