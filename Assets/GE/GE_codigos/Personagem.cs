@@ -3,8 +3,8 @@ using UnityEngine;
 public class Personagem : MonoBehaviour
 {
     public float moveSpeed = 5f;
-    public AudioClip footstepClip; // Arraste seu áudio aqui no Inspector
-    public float footstepInterval = 0.2f; // Tempo entre passos
+    public AudioClip footstepClip;
+    public float footstepInterval = 0.2f;
 
     private Rigidbody2D rb;
     private Vector2 movement;
@@ -33,7 +33,6 @@ public class Personagem : MonoBehaviour
         animator.SetFloat("MoveY", movement.y);
         animator.SetFloat("Speed", movement.sqrMagnitude);
 
-        // Flip do transform para esquerda/direita
         if (movement.x > 0)
         {
             transform.localScale = new Vector3(Mathf.Abs(originalScale.x), originalScale.y, originalScale.z);
@@ -45,8 +44,7 @@ public class Personagem : MonoBehaviour
             spriteRenderer.flipX = false;
         }
 
-        // FOOTSTEP SOUND:
-        if (movement.sqrMagnitude > 0.01f) // Se estiver andando
+        if (movement.sqrMagnitude > 0.01f)
         {
             footstepTimer -= Time.deltaTime;
             if (footstepTimer <= 0f)
@@ -57,7 +55,7 @@ public class Personagem : MonoBehaviour
         }
         else
         {
-            footstepTimer = 0f; // Reseta o timer quando para de andar
+            footstepTimer = 0f;
         }
     }
 

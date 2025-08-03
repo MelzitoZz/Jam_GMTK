@@ -3,9 +3,9 @@ using UnityEngine.UI;
 
 public class UsarItemNoInventario : MonoBehaviour
 {
-    public MudarIten mudarIten; // Referência ao script que controla o inventário visual
-    public JB_Inventory inventario; // Referência ao inventário (onde estão os sprites)
-    public UsarItens usarItens; // Referência ao seu script de lógica de uso
+    public MudarIten mudarIten;
+    public JB_Inventory inventario;
+    public UsarItens usarItens;
 
     void Update()
     {
@@ -13,7 +13,6 @@ public class UsarItemNoInventario : MonoBehaviour
         {
             int slotSelecionado = mudarIten.GetSelectedSlot();
 
-            // Obtém o sprite do slot selecionado no inventário
             Sprite itemParaUsar = inventario.GetItemAt(slotSelecionado);
 
             if (itemParaUsar != null)
