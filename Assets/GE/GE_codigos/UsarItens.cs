@@ -10,10 +10,19 @@ public class UsarItens : MonoBehaviour
     public GameObject bauDist;
     public GameObject estanteDist;
     public GameObject geladeiraDist;
+    public GameObject PCDist;
     public float distanciaMaxima = 10f;
 
     public AudioClip audioConcluido;
     private AudioSource audioSource;
+
+    public BackgroundAudioManager backgroundAudioManager;
+
+    // Flags para controle dos itens
+    private bool bolaUsada = false;
+    private bool bonecaUsada = false;
+    private bool leiteUsado = false;
+    private bool overlay12Removido = false;
 
     void Awake()
     {
@@ -60,6 +69,8 @@ public class UsarItens : MonoBehaviour
                         bau.ColocarBola();
                         fezAcao = true;
                         RemoverItem(itemSprite);
+                        bolaUsada = true;
+                        TentarRemoverOverlay12();
                     }
                     else Debug.Log("Você está longe demais do baú.");
                 }
@@ -74,6 +85,8 @@ public class UsarItens : MonoBehaviour
                         bau.ColocarBoneca();
                         fezAcao = true;
                         RemoverItem(itemSprite);
+                        bonecaUsada = true;
+                        TentarRemoverOverlay12();
                     }
                     else Debug.Log("Você está longe demais do baú.");
                 }
@@ -88,6 +101,12 @@ public class UsarItens : MonoBehaviour
                         estante.ColocarLivro();
                         fezAcao = true;
                         RemoverItem(itemSprite);
+                        // Para overlay 5 ao usar o livro
+                        if (backgroundAudioManager != null)
+                        {
+                            backgroundAudioManager.StopOverlayAudio(5);
+                            Debug.Log("Overlay 5 desativado após usar o livro.");
+                        }
                     }
                     else Debug.Log("Você está longe demais da estante.");
                 }
@@ -102,6 +121,8 @@ public class UsarItens : MonoBehaviour
                         geladeira.ColocarLeite();
                         fezAcao = true;
                         RemoverItem(itemSprite);
+                        leiteUsado = true;
+                        TentarRemoverOverlay12();
                     }
                     else Debug.Log("Você está longe demais da geladeira.");
                 }
@@ -111,6 +132,35 @@ public class UsarItens : MonoBehaviour
                 Debug.Log("Você tomou a xícara de café!");
                 fezAcao = true;
                 RemoverItem(itemSprite);
+                // Para overlay 1 ao usar o café
+                if (backgroundAudioManager != null)
+                {
+                    backgroundAudioManager.StopOverlayAudio(1);
+                    Debug.Log("Overlay 1 desativado após usar o café.");
+                }
+                break;
+
+            case "CRACHÁ_0":
+                float disPC = Vector2.Distance(jogador.transform.position, PCDist.transform.position);
+                if (disPC <= distanciaMaxima)
+                {
+                    fezAcao = true;
+                    RemoverItem(itemSprite);
+
+                    if (backgroundAudioManager != null)
+                    {
+                        backgroundAudioManager.StopOverlayAudio(10);
+                        Debug.Log("Overlay 10 desativado após uso do crachá.");
+                    }
+                    else
+                    {
+                        Debug.LogWarning("BackgroundAudioManager não está atribuído!");
+                    }
+                }
+                else
+                {
+                    Debug.Log("Você está longe demais do PC para usar o crachá.");
+                }
                 break;
 
             default:
@@ -128,6 +178,24 @@ public class UsarItens : MonoBehaviour
         {
             inventario.RemoveItem(itemSprite);
             inventario.UpdateUI();
+        }
+    }
+
+    // Checa se já pode remover overlay 12
+    private void TentarRemoverOverlay12()
+    {
+        if (!overlay12Removido && bolaUsada && bonecaUsada && leiteUsado)
+        {
+            if (backgroundAudioManager != null)
+            {
+                backgroundAudioManager.StopOverlayAudio(12);
+                overlay12Removido = true;
+                Debug.Log("Overlay 12 desativado após usar bola, boneca e leite.");
+            }
+            else
+            {
+                Debug.LogWarning("BackgroundAudioManager não está atribuído!");
+            }
         }
     }
 }
