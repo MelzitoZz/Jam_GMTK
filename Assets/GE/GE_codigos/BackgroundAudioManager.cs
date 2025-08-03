@@ -9,8 +9,8 @@ public class BackgroundAudioManager : MonoBehaviour
 
     [Header("Áudios de Loop Secundário (playlist)")]
     public AudioClip[] overlayClips = new AudioClip[14];
-    [Range(0f, 1f)]
-    public float overlayVolume = 0.7f;
+    [Range(0f, 2f)] // agora vai até 2f para refletir o volume real usado
+    public float overlayVolume = 2f;
 
     private AudioSource bgmSource;
     private AudioSource overlaySource;
@@ -31,7 +31,7 @@ public class BackgroundAudioManager : MonoBehaviour
 
         overlaySource = gameObject.AddComponent<AudioSource>();
         overlaySource.loop = false;
-        overlaySource.volume = overlayVolume;
+        overlaySource.volume = 2f; // volume aumentado além do limite padrão
         overlaySource.playOnAwake = false;
 
         PlayNextOverlay();
