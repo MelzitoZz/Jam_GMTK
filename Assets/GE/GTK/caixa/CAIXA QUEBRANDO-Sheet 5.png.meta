@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a1e6fa4ef7e79af468928d09967684d7
+guid: 0e6edbb29e2b7a04c85278a7547200cd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1489547092744974202
-    second: BOTAO START_0
+      213: 8963553377383915863
+    second: CAIXA QUEBRANDO-Sheet_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BOTAO START_0
+      name: CAIXA QUEBRANDO-Sheet_6
       rect:
         serializedVersion: 2
-        x: 29
-        y: 59
-        width: 262
-        height: 152
+        x: 192
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a7fa74b503feba410800000000000000
-      internalID: 1489547092744974202
+      spriteID: fd231650b5b172a45b9c342ed2267e25
+      internalID: -1397476076
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 12bab72d0f229a046a08d47c66a29754
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BOTAO START_0: 1489547092744974202
+      CAIXA QUEBRANDO-Sheet_0: 8963553377383915863
+      CAIXA QUEBRANDO-Sheet_1: -335029559
+      CAIXA QUEBRANDO-Sheet_2: -1723863986
+      CAIXA QUEBRANDO-Sheet_3: -1990593331
+      CAIXA QUEBRANDO-Sheet_4: -107520459
+      CAIXA QUEBRANDO-Sheet_5: 1848683087
+      CAIXA QUEBRANDO-Sheet_6: -1397476076
+      CAIXA QUEBRANDO-Sheet_7: -1997357247
+      CAIXA QUEBRANDO-Sheet_8: 1589616140
+      CAIXA QUEBRANDO-Sheet_9: 1895330576
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -31,16 +31,56 @@ public class UsarItens : MonoBehaviour
             audioSource = gameObject.AddComponent<AudioSource>();
     }
 
+    // Use null para itemSprite para "mão vazia"
     public void UseItem(Sprite itemSprite)
     {
-        if (itemSprite == null)
+        string itemName = itemSprite != null ? itemSprite.name : "MaoVazia";
+        Debug.Log("Usando item: " + itemName);
+
+        // PROTEÇÃO: Não pode estar segurando o crachá para nada, exceto bater ponto no PC
+        bool isCracha = itemName == "CRACHÁ_0";
+
+        // Se estiver com crachá, só permitir interação com o PC na hora certa
+        if (isCracha)
         {
-            Debug.LogWarning("Nenhum item selecionado para uso.");
+            float disPC = Vector2.Distance(jogador.transform.position, PCDist.transform.position);
+            if (disPC <= distanciaMaxima)
+            {
+                PCController pcController = PCDist.GetComponent<PCController>();
+                if (pcController != null)
+                {
+                    bool removerCracha = pcController.UsarCracha();
+                    if (removerCracha)
+                    {
+                        RemoverItem(itemSprite);
+                        Debug.Log("Crachá removido do inventário.");
+                    }
+
+                    if (backgroundAudioManager != null)
+                    {
+                        backgroundAudioManager.StopOverlayAudio(10);
+                        Debug.Log("Overlay 10 desativado após uso do crachá.");
+                    }
+                }
+                else
+                {
+                    Debug.LogWarning("PCController não encontrado no GameObject do PC!");
+                }
+            }
+            else
+            {
+                Debug.Log("Você está longe demais do PC para usar o crachá.");
+            }
+            // Impede qualquer outro uso segurando o crachá!
             return;
         }
 
-        string itemName = itemSprite.name;
-        Debug.Log("Usando item: " + itemName);
+        // Bloqueia interações com a mão cheia de crachá em qualquer outro objeto!
+        if (itemName == "CRACHÁ_0")
+        {
+            Debug.Log("Não é possível usar o crachá para essa interação.");
+            return;
+        }
 
         bool fezAcao = false;
 
@@ -101,7 +141,6 @@ public class UsarItens : MonoBehaviour
                         estante.ColocarLivro();
                         fezAcao = true;
                         RemoverItem(itemSprite);
-                        // Para overlay 5 ao usar o livro
                         if (backgroundAudioManager != null)
                         {
                             backgroundAudioManager.StopOverlayAudio(5);
@@ -132,7 +171,6 @@ public class UsarItens : MonoBehaviour
                 Debug.Log("Você tomou a xícara de café!");
                 fezAcao = true;
                 RemoverItem(itemSprite);
-                // Para overlay 1 ao usar o café
                 if (backgroundAudioManager != null)
                 {
                     backgroundAudioManager.StopOverlayAudio(1);
@@ -140,26 +178,16 @@ public class UsarItens : MonoBehaviour
                 }
                 break;
 
-            case "CRACHÁ_0":
-                float disPC = Vector2.Distance(jogador.transform.position, PCDist.transform.position);
-                if (disPC <= distanciaMaxima)
+            case "MaoVazia": // Mão vazia usada para interagir com o PC (ligar/trabalhar/desligar)
+                float distPC = Vector2.Distance(jogador.transform.position, PCDist.transform.position);
+                if (distPC <= distanciaMaxima)
                 {
-                    fezAcao = true;
-                    RemoverItem(itemSprite);
-
-                    if (backgroundAudioManager != null)
+                    PCController pcController = PCDist.GetComponent<PCController>();
+                    if (pcController != null)
                     {
-                        backgroundAudioManager.StopOverlayAudio(10);
-                        Debug.Log("Overlay 10 desativado após uso do crachá.");
+                        pcController.InteragirMaoVazia();
+                        fezAcao = true;
                     }
-                    else
-                    {
-                        Debug.LogWarning("BackgroundAudioManager não está atribuído!");
-                    }
-                }
-                else
-                {
-                    Debug.Log("Você está longe demais do PC para usar o crachá.");
                 }
                 break;
 
@@ -181,7 +209,6 @@ public class UsarItens : MonoBehaviour
         }
     }
 
-    // Checa se já pode remover overlay 12
     private void TentarRemoverOverlay12()
     {
         if (!overlay12Removido && bolaUsada && bonecaUsada && leiteUsado)

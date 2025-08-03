@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BOTAO AGAIN ANIMATION-Sheet_0
+      name: BOTAO AGAIN ANIMATION-Sheet_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 7
-        width: 64
-        height: 17
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 403da9ebf01f53e10800000000000000
-      internalID: 2176911044828123908
+      spriteID: 129042cc331bec748b383603450c9ac9
+      internalID: 1168068722
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: bcb8fd67421f1f44d9d2a5eeef6cd853
     internalID: 0
     vertices: []
     indices: 
@@ -136,6 +136,7 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       BOTAO AGAIN ANIMATION-Sheet_0: 2176911044828123908
+      BOTAO AGAIN ANIMATION-Sheet_1: 1168068722
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 8584677884940888591}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -252,6 +252,7 @@ MonoBehaviour:
   animator: {fileID: 2176042417281701742}
   delayColeta: 0.7
   cooldownColeta: 0.7
+  backgroundAudioManager: {fileID: 0}
 --- !u!82 &8584677884940888591
 AudioSource:
   m_ObjectHideFlags: 0

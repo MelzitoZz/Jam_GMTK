@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a1e6fa4ef7e79af468928d09967684d7
+guid: 7976b28973dad5a4d8ee6f5c74522082
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1489547092744974202
-    second: BOTAO START_0
+      213: -50941120810054590
+    second: COMPUTADOR LIGANDO ANIMATION-Sheet_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BOTAO START_0
+      name: COMPUTADOR LIGANDO ANIMATION-Sheet 1_1
       rect:
         serializedVersion: 2
-        x: 29
-        y: 59
-        width: 262
-        height: 152
+        x: 64
+        y: 0
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a7fa74b503feba410800000000000000
-      internalID: 1489547092744974202
+      spriteID: e2548a18005bfd04b9462abe758386c8
+      internalID: 405248982
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: c891c960aaa6f724485838153205d27f
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +135,9 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BOTAO START_0: 1489547092744974202
+      COMPUTADOR LIGANDO ANIMATION-Sheet 1_0: 1169797645
+      COMPUTADOR LIGANDO ANIMATION-Sheet 1_1: 405248982
+      COMPUTADOR LIGANDO ANIMATION-Sheet 1_2: 458884108
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

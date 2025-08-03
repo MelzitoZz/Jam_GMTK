@@ -100,23 +100,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: COMPUTADOR LIGANDO ANIMATION-Sheet_0
+      name: COMPUTADOR LIGANDO ANIMATION-Sheet_2
       rect:
         serializedVersion: 2
-        x: 0
+        x: 128
         y: 0
-        width: 192
-        height: 54
+        width: 64
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 24c08ad02550b4ff0800000000000000
-      internalID: -50941120810054590
+      spriteID: 7d63b25d74a5cf149a0cf83b0131169b
+      internalID: -446232831
       vertices: []
       indices: 
       edges: []
@@ -125,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5d26a6c1887d4e24191b7248fe953425
     internalID: 0
     vertices: []
     indices: 
@@ -136,6 +136,8 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       COMPUTADOR LIGANDO ANIMATION-Sheet_0: -50941120810054590
+      COMPUTADOR LIGANDO ANIMATION-Sheet_1: 1256798406
+      COMPUTADOR LIGANDO ANIMATION-Sheet_2: -446232831
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

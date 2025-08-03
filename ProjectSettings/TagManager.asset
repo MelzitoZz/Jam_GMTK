@@ -11,6 +11,8 @@ TagManager:
   - Bater
   - Ventilador
   - Xicara
+  - PC
+  - Cama
   layers:
   - Default
   - TransparentFX

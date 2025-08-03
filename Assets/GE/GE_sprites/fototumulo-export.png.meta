@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: a1e6fa4ef7e79af468928d09967684d7
+guid: d8142afc7cab734438d79235ea102bc0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1489547092744974202
-    second: BOTAO START_0
+      213: -4589238844456803715
+    second: fototumulo-export_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BOTAO START_0
+      name: fototumulo-export_0
       rect:
         serializedVersion: 2
-        x: 29
-        y: 59
-        width: 262
-        height: 152
+        x: 9
+        y: 9
+        width: 962
+        height: 622
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a7fa74b503feba410800000000000000
-      internalID: 1489547092744974202
+      spriteID: d726ab6f59fbf40c0800000000000000
+      internalID: -4589238844456803715
       vertices: []
       indices: 
       edges: []
@@ -134,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      BOTAO START_0: 1489547092744974202
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
