@@ -5,6 +5,7 @@ public class Personagem : MonoBehaviour
     public float moveSpeed = 5f;
     public AudioClip footstepClip;
     public float footstepInterval = 0.2f;
+    [Range(0f, 1f)] public float footstepVolume = 0.5f; // Adicionado controle de volume
 
     private Rigidbody2D rb;
     private Vector2 movement;
@@ -68,7 +69,7 @@ public class Personagem : MonoBehaviour
     {
         if (footstepClip != null && audioSource != null)
         {
-            audioSource.PlayOneShot(footstepClip);
+            audioSource.PlayOneShot(footstepClip, footstepVolume); // Volume aplicado aqui
         }
     }
 }
