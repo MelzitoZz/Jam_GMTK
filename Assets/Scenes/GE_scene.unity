@@ -202,7 +202,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.0049552917, y: -0.098768055}
+  m_Offset: {x: 0.006512463, y: -0.16921282}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -212,7 +212,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.1186819, y: 1.5885581}
+  m_Size: {x: 1.4561626, y: 1.7294476}
   m_EdgeRadius: 0
 --- !u!212 &47890159
 SpriteRenderer:
@@ -278,7 +278,7 @@ Transform:
   m_GameObject: {fileID: 47890155}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.57, y: 7.26, z: 0}
+  m_LocalPosition: {x: -0.72, y: 7.26, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -824,11 +824,11 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.008202493, y: -0.0031659007}
+  m_Offset: {x: -0.0019137859, y: -0.008223891}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -838,7 +838,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.5323378, y: 0.5224117}
+  m_Size: {x: 1.0786219, y: 1.0788119}
   m_EdgeRadius: 0
 --- !u!212 &147603331
 SpriteRenderer:
@@ -904,7 +904,7 @@ Transform:
   m_GameObject: {fileID: 147603327}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.45, y: 6.12, z: 0}
+  m_LocalPosition: {x: -4.93, y: 6.12, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -940,7 +940,7 @@ PolygonCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -956,11 +956,11 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.33791476, y: 0.32507342}
-      - {x: -0.34590754, y: -0.20833334}
-      - {x: -0.3410578, y: -0.37302715}
-      - {x: 0.4178378, y: -0.36503488}
-      - {x: 0.40984535, y: 0.31708148}
+    - - {x: -0.25, y: 0.22916667}
+      - {x: -0.25, y: -0.20833334}
+      - {x: -0.22916667, y: -0.22916667}
+      - {x: 0.25, y: -0.22916667}
+      - {x: 0.25, y: 0.22916667}
   m_UseDelaunayMesh: 0
 --- !u!114 &147603334
 MonoBehaviour:
@@ -4219,7 +4219,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.4921956, y: 0.0059654713}
+  m_Offset: {x: 0.4921956, y: -0.12214303}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -4229,7 +4229,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 5.0495386, y: 2.9534545}
+  m_Size: {x: 5.0495386, y: 3.2096715}
   m_EdgeRadius: 0
 --- !u!1 &361743665
 GameObject:
@@ -4246,7 +4246,7 @@ GameObject:
   - component: {fileID: 361743670}
   - component: {fileID: 361743671}
   m_Layer: 6
-  m_Name: Capsule
+  m_Name: Caixa
   m_TagString: Bater
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4639,8 +4639,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1673642815
-  m_SortingLayer: 4
+  m_SortingLayerID: -1802423131
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -6082034013420318787, guid: d48bf13382f407544ad45cf045c49807, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5084,6 +5084,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemSprite: {fileID: 8116611766102904639, guid: ea1e6cfe6bf236348a98ca2d02f47cef, type: 3}
   coletarMensagem: {fileID: 987317211}
+  audioColeta: {fileID: 8300000, guid: ade6033bfb6b7ad40a6579cf9bb2d124, type: 3}
+  volumeAudioColeta: 0.5
 --- !u!50 &586568636
 Rigidbody2D:
   serializedVersion: 5
@@ -5410,8 +5412,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1673642815
-  m_SortingLayer: 4
+  m_SortingLayerID: -185806103
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -123252890505822341, guid: ccf595702c8be2347a76cc44a9d2fc19, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -5923,7 +5925,7 @@ Transform:
   m_GameObject: {fileID: 930798045}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.7752343, y: 4.1320233, z: -9.965943}
+  m_LocalPosition: {x: 0.7678929, y: 4.1320333, z: -9.965943}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6679,7 +6681,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.032746077, y: -0.04911995}
+  m_Offset: {x: 0.06265831, y: -0.12390089}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -6689,7 +6691,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.5084519, y: 2.4257069}
+  m_Size: {x: 1.9272256, y: 2.5752687}
   m_EdgeRadius: 0
 --- !u!212 &1252469727
 SpriteRenderer:
@@ -7909,9 +7911,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: -5003276760292938592, guid: 99e6190f99e96634a8a71e1ec0f4e2c8, type: 3}
     - target: {fileID: 6075828207781992213, guid: 21abfa1feed58b443b84bb16cb3555cf, type: 3}
+      propertyPath: audioColeta
+      value: 
+      objectReference: {fileID: 8300000, guid: ade6033bfb6b7ad40a6579cf9bb2d124, type: 3}
+    - target: {fileID: 6075828207781992213, guid: 21abfa1feed58b443b84bb16cb3555cf, type: 3}
       propertyPath: coletarMensagem
       value: 
       objectReference: {fileID: 987317211}
+    - target: {fileID: 6075828207781992213, guid: 21abfa1feed58b443b84bb16cb3555cf, type: 3}
+      propertyPath: volumeAudioColeta
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 7770949150378745675, guid: 21abfa1feed58b443b84bb16cb3555cf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -11.95
@@ -8241,6 +8251,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8664118293469814412, guid: 4055f6b1cfdcb08439eee9248530aeb4, type: 3}
     - target: {fileID: 6075828207781992213, guid: 21abfa1feed58b443b84bb16cb3555cf, type: 3}
+      propertyPath: audioColeta
+      value: 
+      objectReference: {fileID: 8300000, guid: ade6033bfb6b7ad40a6579cf9bb2d124, type: 3}
+    - target: {fileID: 6075828207781992213, guid: 21abfa1feed58b443b84bb16cb3555cf, type: 3}
       propertyPath: coletarMensagem
       value: 
       objectReference: {fileID: 987317211}
@@ -8559,7 +8573,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 019390b7647e54540a89c1dcc1cceaa6, type: 3}
   - {fileID: 8300000, guid: 8f0af5c1568b6084497d63b01de17395, type: 3}
   - {fileID: 8300000, guid: b4f86dfd36b6baf49825a14a56f4f91e, type: 3}
-  overlayVolume: 1
+  overlayVolume: 2
 --- !u!1 &1515026123
 GameObject:
   m_ObjectHideFlags: 0
@@ -8720,7 +8734,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.03007248, y: -0.099254966}
+  m_Offset: {x: 0.004825026, y: -0.099254966}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -8730,7 +8744,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.97017425, y: 1.8205042}
+  m_Size: {x: 1.059911, y: 1.8205042}
   m_EdgeRadius: 0
 --- !u!212 &1520762948
 SpriteRenderer:
@@ -11097,6 +11111,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 4365763368367266632, guid: ecaf7b47742315c43bafab65e28a9576, type: 3}
     - target: {fileID: 6075828207781992213, guid: 21abfa1feed58b443b84bb16cb3555cf, type: 3}
+      propertyPath: audioColeta
+      value: 
+      objectReference: {fileID: 8300000, guid: ade6033bfb6b7ad40a6579cf9bb2d124, type: 3}
+    - target: {fileID: 6075828207781992213, guid: 21abfa1feed58b443b84bb16cb3555cf, type: 3}
       propertyPath: coletarMensagem
       value: 
       objectReference: {fileID: 987317211}
@@ -11391,7 +11409,7 @@ Transform:
   m_GameObject: {fileID: 1616156530}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.2, z: 0}
+  m_LocalPosition: {x: 0.055, y: 2.102, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11869,7 +11887,7 @@ Transform:
   m_GameObject: {fileID: 1815179297}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -25.247576, y: -7.4973545, z: -2.5268102}
+  m_LocalPosition: {x: -24.95, y: -7.4973545, z: -2.5268102}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11902,7 +11920,7 @@ Transform:
   m_GameObject: {fileID: 1842956525}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.98, y: 7.71, z: 0}
+  m_LocalPosition: {x: 10.31, y: 7.71, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -12018,8 +12036,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 730741875498575998, guid: fb0a4da341892744ea38817b14439303, type: 3}
+      propertyPath: volumeHit
+      value: 0.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 730741875498575998, guid: fb0a4da341892744ea38817b14439303, type: 3}
       propertyPath: attackRange
-      value: 1
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 730741875498575998, guid: fb0a4da341892744ea38817b14439303, type: 3}
+      propertyPath: volumeSwing
+      value: 0.21
       objectReference: {fileID: 0}
     - target: {fileID: 1170358920861550496, guid: fb0a4da341892744ea38817b14439303, type: 3}
       propertyPath: footstepVolume
@@ -12034,7 +12060,19 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 5207244887690494861, guid: fb0a4da341892744ea38817b14439303, type: 3}
+      propertyPath: somColeta
+      value: 
+      objectReference: {fileID: 8300000, guid: 5a3d961ea84fe0a4d82509f7a73628fa, type: 3}
+    - target: {fileID: 5207244887690494861, guid: fb0a4da341892744ea38817b14439303, type: 3}
       propertyPath: collectRange
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5207244887690494861, guid: fb0a4da341892744ea38817b14439303, type: 3}
+      propertyPath: audioTaskCompleta
+      value: 
+      objectReference: {fileID: 8300000, guid: ade6033bfb6b7ad40a6579cf9bb2d124, type: 3}
+    - target: {fileID: 5207244887690494861, guid: fb0a4da341892744ea38817b14439303, type: 3}
+      propertyPath: volumeTaskCompleta
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5207244887690494861, guid: fb0a4da341892744ea38817b14439303, type: 3}
@@ -12165,6 +12203,10 @@ PrefabInstance:
       propertyPath: itemSprite
       value: 
       objectReference: {fileID: 1634988814150419439, guid: e21a8681251ee8f409fda35eb0a8183f, type: 3}
+    - target: {fileID: 6075828207781992213, guid: 21abfa1feed58b443b84bb16cb3555cf, type: 3}
+      propertyPath: audioColeta
+      value: 
+      objectReference: {fileID: 8300000, guid: ade6033bfb6b7ad40a6579cf9bb2d124, type: 3}
     - target: {fileID: 6075828207781992213, guid: 21abfa1feed58b443b84bb16cb3555cf, type: 3}
       propertyPath: coletarMensagem
       value: 
@@ -12549,7 +12591,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.542927, y: -0.53898335}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -12559,7 +12601,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 3.2, y: 2.7}
+  m_Size: {x: 4.7644525, y: 3.7477016}
   m_EdgeRadius: 0
 --- !u!1001 &6405630413619068689
 PrefabInstance:
@@ -12706,6 +12748,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 6075828207781992213, guid: 21abfa1feed58b443b84bb16cb3555cf, type: 3}
+      propertyPath: audioColeta
+      value: 
+      objectReference: {fileID: 8300000, guid: ade6033bfb6b7ad40a6579cf9bb2d124, type: 3}
     - target: {fileID: 6075828207781992213, guid: 21abfa1feed58b443b84bb16cb3555cf, type: 3}
       propertyPath: coletarMensagem
       value: 

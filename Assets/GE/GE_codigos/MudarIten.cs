@@ -21,14 +21,29 @@ public class MudarIten : MonoBehaviour
 
     void Update()
     {
+        // Troca com números 1 a 7
         for (int i = 0; i < itemImages.Length && i < 7; i++)
         {
-            // KeyCode.Alpha1 é o número 1, Alpha2 é o número 2, etc.
             if (Input.GetKeyDown(KeyCode.Alpha1 + i))
             {
                 selectedSlot = i;
                 UpdateSlotVisual();
+                return; // evita conflito com o scroll no mesmo frame
             }
+        }
+
+        // Troca com scroll do mouse
+        float scroll = Input.GetAxis("Mouse ScrollWheel");
+
+        if (scroll > 0f)
+        {
+            selectedSlot = (selectedSlot + 1) % itemImages.Length;
+            UpdateSlotVisual();
+        }
+        else if (scroll < 0f)
+        {
+            selectedSlot = (selectedSlot - 1 + itemImages.Length) % itemImages.Length;
+            UpdateSlotVisual();
         }
     }
 

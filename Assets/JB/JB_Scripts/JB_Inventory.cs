@@ -11,9 +11,12 @@ public class JB_Inventory : MonoBehaviour
     public AudioClip audioTaskCompleta;
     private AudioSource audioSource;
 
-    // Travas individuais para cada task
     private bool taskBonecaBolaCompleta = false;
     private bool taskCrachaCompleta = false;
+
+    // Novas flags
+    private bool bonecaColetada = false;
+    private bool bolaColetada = false;
 
     void Start()
     {
@@ -32,14 +35,17 @@ public class JB_Inventory : MonoBehaviour
             if (itemSprites[i] == null)
             {
                 itemSprites[i] = itemSprite;
+
+                // Marcar que foi coletado
+                if (itemSprite.name == "BONECA_0") bonecaColetada = true;
+                if (itemSprite.name == "BOLA_0") bolaColetada = true;
+
                 UpdateUI();
-
                 PararOverlaySePegouBonecaEBola();
-
                 return true;
             }
         }
-        return false; // Inventário cheio
+        return false;
     }
 
     public void UpdateUI()
@@ -88,19 +94,7 @@ public class JB_Inventory : MonoBehaviour
 
     private void PararOverlaySePegouBonecaEBola()
     {
-        bool temBoneca = false, temBola = false, temCracha = false;
-
-        foreach (Sprite s in itemSprites)
-        {
-            if (s != null)
-            {
-                if (s.name == "BONECA_0") temBoneca = true;
-                if (s.name == "BOLA_0") temBola = true;
-                if (s.name == "CRACHÁ_0") temCracha = true;
-            }
-        }
-
-        if (temBoneca && temBola && !taskBonecaBolaCompleta)
+        if (bonecaColetada && bolaColetada && !taskBonecaBolaCompleta)
         {
             if (backgroundAudioManager != null)
                 backgroundAudioManager.StopOverlayAudio(9);
@@ -108,6 +102,17 @@ public class JB_Inventory : MonoBehaviour
                 audioSource.PlayOneShot(audioTaskCompleta);
             taskBonecaBolaCompleta = true;
         }
+
+        bool temCracha = false;
+        foreach (Sprite s in itemSprites)
+        {
+            if (s != null && s.name == "CRACHÁ_0")
+            {
+                temCracha = true;
+                break;
+            }
+        }
+
         if (temCracha && !taskCrachaCompleta)
         {
             if (backgroundAudioManager != null)

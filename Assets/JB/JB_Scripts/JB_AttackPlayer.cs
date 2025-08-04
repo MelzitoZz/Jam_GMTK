@@ -15,6 +15,10 @@ public class JB_AttackPlayer : MonoBehaviour
     public AudioClip hitObjectSound;
     public string hittableTag = "AlvoBatível";
 
+    [Header("Volumes")]
+    [Range(0f, 1f)] public float volumeSwing = 0.5f;
+    [Range(0f, 1f)] public float volumeHit = 0.5f;
+
     private AudioSource audioSource;
     private bool canAttack = true;
     private bool hitSomething;
@@ -22,6 +26,8 @@ public class JB_AttackPlayer : MonoBehaviour
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        if (audioSource == null)
+            audioSource = gameObject.AddComponent<AudioSource>();
     }
 
     void Update()
@@ -32,7 +38,7 @@ public class JB_AttackPlayer : MonoBehaviour
                 animator.SetTrigger("Attack");
 
             if (attackSwingSound != null && audioSource != null)
-                audioSource.PlayOneShot(attackSwingSound);
+                audioSource.PlayOneShot(attackSwingSound, volumeSwing);
 
             canAttack = false;
             hitSomething = false;
@@ -55,7 +61,7 @@ public class JB_AttackPlayer : MonoBehaviour
 
                     if (!hitSomething && hitObjectSound != null && audioSource != null)
                     {
-                        audioSource.PlayOneShot(hitObjectSound);
+                        audioSource.PlayOneShot(hitObjectSound, volumeHit);
                         hitSomething = true;
                     }
                 }
